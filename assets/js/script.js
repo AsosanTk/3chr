@@ -4,7 +4,7 @@
 $(window).on("load", function () {
     stopload();
     
-    var photolist = target.find('#top-photolist li');
+    var photolist = $('#top-photolist li');
     $(photolist[0]).stop().fadeIn(100, 'swing');
 })
 setTimeout(stopload(), 10000);
