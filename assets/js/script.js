@@ -3,6 +3,7 @@
 /*onload*/
 $(window).on("load", function () {
     stopload();
+    photoChange($('.mainimagescontents'));
 })
 setTimeout(stopload(), 10000);
 function stopload() {
