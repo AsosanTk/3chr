@@ -3,7 +3,9 @@
 /*onload*/
 $(window).on("load", function () {
     stopload();
-    photoChange($('.mainimagescontents'));
+    
+    var photolist = target.find('#top-photolist li');
+    $(photolist[0]).stop().fadeIn(100, 'swing');
 })
 setTimeout(stopload(), 10000);
 function stopload() {
