@@ -1,14 +1,14 @@
 'use strict';
 
 /*onload*/
-    $(window).on("load", function () {
-        stopload();
-    })
-    setTimeout(stopload(), 10000);
-    function stopload() {
-        $(".loading").delay(500).fadeOut(500);
-        $(".loading-tag").delay(500).fadeOut(500);
-    }
+$(window).on("load", function () {
+    stopload();
+})
+setTimeout(stopload(), 10000);
+function stopload() {
+    $(".loading").delay(500).fadeOut(500);
+    $(".loading-tag").delay(500).fadeOut(500);
+}
 
 jQuery(function ($) {
     
