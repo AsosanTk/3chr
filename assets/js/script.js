@@ -3,9 +3,6 @@
 /*onload*/
 $(window).on("load", function () {
     stopload();
-    
-    var photolist = $('#top-photolist li');
-    $(photolist[0]).stop().fadeIn(100, 'swing');
 })
 setTimeout(stopload(), 10000);
 function stopload() {
