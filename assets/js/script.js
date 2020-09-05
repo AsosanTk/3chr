@@ -1,7 +1,6 @@
 'use strict';
 
-jQuery(function ($) {
-    /*onload*/
+/*onload*/
     $(window).on("load", function () {
         stopload();
     })
@@ -11,7 +10,8 @@ jQuery(function ($) {
         $(".loading-tag").delay(500).fadeOut(500);
     }
 
-
+jQuery(function ($) {
+    
     
     /*menu*/
     var menubtn = $('.btn-trigger');
