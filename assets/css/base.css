@@ -387,8 +387,72 @@ $colors: {
         transform: translateX(-50%);
     }
 
+    
+    /*fadeInUp()*/
+    .fadeInUp {
+        opacity: 0;
+        transform: translateY(60px);
+        transition: 1s;
+    }
+    
+}
 
-    /*Loading-animation*/
+
+
+
+
+
+
+@media screen and (min-width: 801px) {
+
+    /*font size*/
+    h2 {
+        font-size: 2.6vw;
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        line-height: 5.2vw;
+        font-weight: 900;
+    }
+
+    h3 {
+        font-size: 2.1vw;
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        line-height: 4.2vw;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-size: 1.6vw;
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        line-height: 3.2vw;
+    }
+
+    h5 {
+        font-size: 1.2vw;
+        font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+        font-weight: 100;
+        line-height: 2.4vw;
+    }
+
+    .textline {
+        font-size: 0.9vw;
+        font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+        font-weight: 50;
+        line-height: 1.6vw;
+    }
+
+    small {
+        font-size: 0.4vw;
+        font-family: monospace;
+        line-height: 0.8vw;
+    }
+
+}
+
+
+
+
+
+/*Loading-animation*/
     .loading {
         background-color: steelblue;
         width: 100vw;
@@ -1010,55 +1074,4 @@ $colors: {
             transform: scaleY(1);
         }
     }
-}
-
-
-
-
-
-
-
-@media screen and (min-width: 801px) {
-
-    /*font size*/
-    h2 {
-        font-size: 2.6vw;
-        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-        line-height: 5.2vw;
-        font-weight: 900;
-    }
-
-    h3 {
-        font-size: 2.1vw;
-        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-        line-height: 4.2vw;
-        font-weight: 600;
-    }
-
-    h4 {
-        font-size: 1.6vw;
-        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-        line-height: 3.2vw;
-    }
-
-    h5 {
-        font-size: 1.2vw;
-        font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-        font-weight: 100;
-        line-height: 2.4vw;
-    }
-
-    .textline {
-        font-size: 0.9vw;
-        font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-        font-weight: 50;
-        line-height: 1.6vw;
-    }
-
-    small {
-        font-size: 0.4vw;
-        font-family: monospace;
-        line-height: 0.8vw;
-    }
-
-}
+    
