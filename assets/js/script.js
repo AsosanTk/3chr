@@ -12,6 +12,19 @@ function stopload() {
 
 jQuery(function ($) {
     
+    function fadeInUp() {
+        $('.fadeInUp').each(function() {
+            var target = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > target - windowHeight) {
+                $(this).css('opacity', '1');
+                $(this).css('transform', 'translateY(0)');
+            }
+        });
+    }
+    fadeInUp();
+    
     
     /*menu*/
     var menubtn = $('.btn-trigger');
@@ -31,6 +44,9 @@ jQuery(function ($) {
     var startPos = 0;
     var windowScrollTop = 0;
     $(window).scroll(function () {
+        
+        fadeInUp();
+        
         windowScrollTop = $(this).scrollTop();
         if (!menubtn.hasClass('active')) {
             if (windowScrollTop >= startPos) {
