@@ -583,8 +583,12 @@
     .mainimagescontents {
         width: 60vw;
         height: 33.75vw;
-        margin: 8px;
+        padding: 8px;
+    }
+    
+    #top-photolist {
         border-radius: 8px;
+        overflow: hidden;
     }
     
     #control ul {
