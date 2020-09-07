@@ -2,14 +2,6 @@
 
 
 
-@media screen and (max-width: 800px) {
-
-    /*TOPスライドビュー*/
-    .mainimagescontents {
-        width: 100vw;
-        height: 56.25vw;
-    }
-
     #top-photolist {
         position: relative;
         z-index: 100;
@@ -46,36 +38,6 @@
         z-index: 101;
     }
 
-    #control ul {
-        position: relative;
-        width: 100vw;
-        height: 6vw;
-    }
-
-    #control li {
-        display: inline-block;
-        position: relative;
-        list-style: none;
-    }
-
-    #control img {
-        width: 6vw;
-        height: 6vw;
-        cursor: pointer;
-    }
-
-    #control img:hover {
-        opacity: 0.5;
-        transition: 1s;
-    }
-
-    #control #prev {
-        padding-left: 6vw;
-    }
-
-    #control #next {
-        padding-left: 76vw;
-    }
 
 
 
@@ -156,7 +118,7 @@
         margin: 0;
         padding-left: 0;
         list-style: none;
-        width: 100vw;
+        width: 100%;
     }
 
     .whiteblacksection ul li,
@@ -572,12 +534,85 @@
         transition: 0.7s;
     }
 
+
+
+
+
+@media screen and (max-width: 800px) {
+    /*TOPスライドビュー*/
+    .mainimagescontents {
+        width: 100vw;
+        height: 56.25vw;
+    }
+    
+    #control ul {
+        position: relative;
+        width: 100vw;
+        height: 6vw;
+    }
+
+    #control li {
+        display: inline-block;
+        position: relative;
+        list-style: none;
+    }
+
+    #control img {
+        width: 6vw;
+        height: 6vw;
+        cursor: pointer;
+    }
+
+    #control img:hover {
+        opacity: 0.5;
+        transition: 1s;
+    }
+
+    #control #prev {
+        padding-left: 6vw;
+    }
+
+    #control #next {
+        padding-left: 76vw;
+    }
 }
 
 
-
-
-
-
 @media screen and (min-width: 801px) {
+    /*TOPスライドビュー*/
+    .mainimagescontents {
+        width: 72vw;
+        height: 45vw;
+    }
+    
+    #control ul {
+        position: relative;
+        width: 100%;
+        height: 4vw;
+    }
+
+    #control li {
+        display: inline-block;
+        position: relative;
+        list-style: none;
+    }
+
+    #control img {
+        width: 4vw;
+        height: 4vw;
+        cursor: pointer;
+    }
+
+    #control img:hover {
+        opacity: 0.5;
+        transition: 1s;
+    }
+
+    #control #prev {
+        padding-left: 5vw;
+    }
+
+    #control #next {
+        padding-left: 54vw;
+    }
 }
