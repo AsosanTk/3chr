@@ -412,8 +412,8 @@ body {
         background-color: rgba(255, 255, 255, 0.66);
         margin-left: 4vw;
         top: 50%;
-        transform: translateX(-20vw, -50%);
-        -webkit-transform: translateX(-20vw, -50%);
+        transform: translate(-20vw, -50%);
+        -webkit-transform: translate(-20vw, -50%);
         display: block;
         position: fixed;
         transition: 1s;
