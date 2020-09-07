@@ -12,77 +12,7 @@ body {
 }
 
 
-@media screen and (max-width: 800px) {
-
-    /*font size*/
-    h2 {
-        font-size: 20px;
-        line-height: 40px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    h3 {
-        font-size: 17px;
-        line-height: 34px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    h4 {
-        font-size: 14.5px;
-        line-height: 29px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    h5 {
-        font-size: 13px;
-        line-height: 26px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-
-    }
-
-    .textline {
-        margin-top: 4px;
-        font-size: 11px;
-        line-height: 22px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 200;
-        font-style: normal;
-    }
-
-    .headline {
-        font-size: 13px;
-        line-height: 26px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 200;
-        font-style: normal;
-    }
-
-    small {
-        font-size: 8px;
-        line-height: 12px;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    td,
-    th {
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-
-
-    /*header*/
+/*header*/
     header {
         position: fixed;
         background-color: rgba(255, 255, 255, 0.9);
@@ -284,6 +214,75 @@ body {
     }
 
 
+@media screen and (max-width: 800px) {
+
+    /*font size*/
+    h2 {
+        font-size: 20px;
+        line-height: 40px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 34px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    h4 {
+        font-size: 14.5px;
+        line-height: 29px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    h5 {
+        font-size: 13px;
+        line-height: 26px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .textline {
+        margin-top: 4px;
+        font-size: 11px;
+        line-height: 22px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .headline {
+        font-size: 13px;
+        line-height: 26px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    small {
+        font-size: 8px;
+        line-height: 12px;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    td,
+    th {
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
 
     /*footer*/
     footer {
@@ -458,208 +457,6 @@ body {
         font-family: source-han-sans-cjk-ja, sans-serif;
         font-weight: 400;
         font-style: normal;
-    }
-
-
-    /*header*/
-    header {
-        position: fixed;
-        background-color: rgba(255, 255, 255, 0.9);
-        top: 0;
-        z-index: 1000;
-        height: 85px;
-        transition: 1.0s;
-        width: 100vw;
-    }
-
-    header.hide {
-        transform: translateY(-100%);
-    }
-
-    .menubar {
-        height: 85px;
-    }
-
-    .menubar li {
-        list-style: none;
-        display: inline-block;
-        float: right;
-    }
-
-    #twilink {
-        width: 35px;
-        height: 35px;
-        margin-right: 35px;
-        margin-top: 25px;
-        z-index: 1001;
-        cursor: pointer;
-    }
-
-    #instalink {
-        width: 35px;
-        height: 35px;
-        margin-right: 35px;
-        margin-top: 25px;
-        z-index: 1001;
-        cursor: pointer;
-    }
-
-    .btn-trigger {
-        position: relative;
-        width: 35px;
-        height: 35px;
-        margin-right: 10vw;
-        margin-top: 25px;
-        cursor: pointer;
-        z-index: 1001;
-    }
-
-
-
-    /*page-title*/
-    header .titlebar {
-        position: relative;
-        transform: translateY(-55px);
-        width: 300px;
-        height: 35px;
-        padding-left: 10vw;
-        z-index: 10;
-        clear: both;
-    }
-
-    .titlebar h2 {
-        text-align: left;
-        top: 0;
-        font-size: 25px;
-        line-height: 35px;
-        color: black;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    main {
-        margin-top: 85px;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-
-
-    /*menubutton*/
-    .btn-trigger span {
-        position: absolute;
-        left: 0;
-        width: 35px;
-        height: 3px;
-        background-color: #000;
-        border-radius: 3px;
-    }
-
-    .btn-trigger,
-    .btn-trigger span {
-        display: inline-block;
-        transition: all .5s;
-        box-sizing: border-box;
-    }
-
-    .btn-trigger span:nth-of-type(1) {
-        top: 4px;
-    }
-
-    .btn-trigger span:nth-of-type(2) {
-        top: 16px;
-    }
-
-    .btn-trigger span:nth-of-type(3) {
-        top: 28px;
-    }
-
-    .btn-trigger:hover span:nth-of-type(1) {
-        top: 1px;
-    }
-
-    .btn-trigger:hover span:nth-of-type(3) {
-        top: 31px;
-    }
-
-    #hamburger.active span:nth-of-type(1) {
-        -webkit-transform: translateY(9px) rotate(405deg);
-        transform: translateY(9px) rotate(405deg);
-    }
-
-    #hamburger.active span:nth-of-type(2) {
-        opacity: 0;
-    }
-
-    #hamburger.active span:nth-of-type(3) {
-        -webkit-transform: translateY(-9px) rotate(-405deg);
-        transform: translateY(-9px) rotate(-405deg);
-    }
-
-
-
-    /*navitem*/
-    nav {
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(255, 255, 255, 0.9);
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: none;
-        z-index: 999;
-    }
-
-    .mainmenu {
-        list-style: none;
-        width: 60vw;
-        height: 49vh;
-        margin: 23vh 20vw 28vh 20vw;
-    }
-
-    .menu-item {
-        position: relative;
-        width: 60vw;
-        height: 7vh;
-        font-size: 5vh;
-        text-align: center;
-        vertical-align: middle;
-        display: inline-block;
-        z-index: 100;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .menu-item a {
-        width: 60vw;
-        text-decoration: none;
-        color: black;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .menu-item:hover {
-        background-color: tan;
-        transition: 0.6s;
-    }
-
-    #thispage {
-        background-color: tan;
-    }
-
-    main {
-        transition: 1s;
-        z-index: 2;
-        overflow: hidden;
-    }
-
-    main.active {
-        transition: 1s;
-        z-index: 1;
     }
 
 
