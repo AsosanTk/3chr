@@ -403,7 +403,7 @@ body {
 @media screen and (min-width: 801px) {
     main {
         width: 72vw;
-        left: 14vw;
+        margin-left: 14vw;
     }
 }
 
