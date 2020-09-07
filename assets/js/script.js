@@ -48,9 +48,13 @@ jQuery(function ($) {
         fadeInUp();
         
         windowScrollTop = $(this).scrollTop();
+        if (windowScrollTop >= 120) {
+            $('.pcmenu').css('transform', 'translateX(0)');
+        }
+        
         if (!menubtn.hasClass('active')) {
             if (windowScrollTop >= startPos) {
-                if (windowScrollTop >= 85) {
+                if (windowScrollTop >= 120) {
                     $('header').addClass('hide');
                 }
             } else {
