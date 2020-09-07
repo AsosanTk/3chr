@@ -8,9 +8,6 @@
     .mainimagescontents {
         width: 100vw;
         height: 56.25vw;
-        /*margin: 8px;
-    padding: 8px 6px 8px 6px;
-    background-color: rgba(255, 255, 255, 0.45);*/
     }
 
     #top-photolist {
@@ -87,12 +84,12 @@
     /*transparent-section*/
 
     .whitesection {
-        background-color: rgba(255, 255, 255, 0.45);
+        background-color: rgba(255, 255, 255, 0.5);
         color: black;
     }
 
     .blacksection {
-        background-color: rgba(0, 0, 0, 0.45);
+        background-color: rgba(0, 0, 0, 0.5);
         color: white;
     }
 
@@ -196,12 +193,12 @@
     }
 
     .whitesquare {
-        background-color: rgba(255, 255, 255, 0.45);
+        background-color: rgba(255, 255, 255, 0.5);
         color: black;
     }
 
     .blacksquare {
-        background-color: rgba(0, 0, 0, 0.45);
+        background-color: rgba(0, 0, 0, 0.5);
         color: white;
     }
 
@@ -577,4 +574,578 @@
 
 }
 
-@media screen and (min-width: 801px) {}
+
+
+
+
+
+@media screen and (min-width: 801px) {
+    /*TOPスライドビュー*/
+    .mainimagescontents {
+        width: 100vw;
+        height: 56.25vw;
+    }
+
+    #top-photolist {
+        position: relative;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+    }
+
+    #top-photolist li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    #top-photolist li img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    /*#top-photolist li:hover {
+    opacity: 0.95;
+    transition: 0.8s;
+}
+*/
+
+    .mainimagescontents #control {
+        position: relative;
+        top: -50%;
+        transform: translateY(-50%);
+        z-index: 101;
+    }
+
+    #control ul {
+        position: relative;
+        width: 100vw;
+        height: 3vw;
+    }
+
+    #control li {
+        display: inline-block;
+        position: relative;
+        list-style: none;
+    }
+
+    #control img {
+        width: 3vw;
+        height: 3vw;
+        cursor: pointer;
+    }
+
+    #control img:hover {
+        opacity: 0.5;
+        transition: 1s;
+    }
+
+    #control #prev {
+        padding-left: 6vw;
+    }
+
+    #control #next {
+        padding-left: 82vw;
+    }
+
+
+
+    /*white-section*/
+    /*black-section*/
+    /*transparent-section*/
+
+    .whitesection {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+    }
+
+    .blacksection {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+    .transparentsection {
+        background-color: transparent;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .whitesection,
+    .blacksection,
+    .transparentsection {
+        margin: 2vw;
+        padding: 60px 60px 60px 60px;
+        border-radius: 2vw;
+    }
+
+    /*.whitesection h2,
+    .blacksection h2,
+    .transparentsection h2 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .whitesection h3,
+    .blacksection h3,
+    .transparentsection h3 {
+        padding: 0px 5px 0px 5px;
+    }*/
+
+    .whitesection h4,
+    .blacksection h4,
+    .transparentsection h4 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .whitesection h5,
+    .blacksection h5,
+    .transparentsection h5 {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .whitesection p,
+    .blacksection p,
+    .transparentsection p {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .sectionimage {
+        width: 100%;
+        padding: 40px;
+    }
+
+
+    /*white-black-section*/
+    /*black-white-section*/
+    .whiteblacksection,
+    .blackwhitesection {
+        background-color: transparent;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .whiteblacksection ul,
+    .blackwhitesection ul {
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+        width: 100vw;
+    }
+
+    .whiteblacksection ul li,
+    .blackwhitesection ul li {
+        margin: 0;
+        width: 50%;
+        display: table-cell;
+        *display: inline-block;
+        *zoom: 1;
+    }
+
+    .whiteblacksection .whitesquare,
+    .blackwhitesection .blacksquare {
+        padding: 50px;
+        margin: 0px 1vw 0px 2vw;
+        border-radius: 2vw;
+    }
+
+
+    .whiteblacksection .blacksquare,
+    .blackwhitesection .whitesquare {
+        padding: 50px;
+        margin: 0px 1vw 0px 2vw;
+        border-radius: 2vw;
+    }
+
+    .iconimage {
+        width: 100%;
+    }
+
+    .iconimage:hover {
+        opacity: 0.85;
+        transition: 1s;
+    }
+
+    .whitesquare {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+    }
+
+    .blacksquare {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+    .whitesquare h2,
+    .blacksquare h2,
+    .whitesquare h3,
+    .blacksquare h3,
+    .whitesquare h4,
+    .blacksquare h4,
+    .whitesquare h5,
+    .blacksquare h5,
+    .whitesquare p,
+    .blacksquare p {
+        text-align: center;
+    }
+
+    .whitesquare h4,
+    .blacksquare h4 {
+        height: 1.6vw;
+    }
+
+    .whitesquare h5,
+    .blacksquare h5 {
+        height: 2.4vw;
+    }
+
+
+
+
+
+    /*link+listsection*/
+    .space20 {
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+    }
+
+    .listsection {
+        width: 100%;
+    }
+
+    .listsection h4,
+    .listsection h5,
+    .listsection p {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .listsection li {
+        width: 100%;
+        display: inline-block;
+        list-style: none;
+        position: relative;
+        border-bottom: 1.5px dashed;
+        border-bottom-color: gray;
+    }
+
+    #lastlistitem {
+        border-bottom-color: transparent;
+    }
+
+
+    .wlistsectionitem {
+        width: 100%;
+        height: 8.4vw;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        padding-left: 8.4vw;
+        padding-top: 0.4vw;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .wlistsectionitem:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: 1s;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .blistsectionitem {
+        width: 100%;
+        height: 8.4vw;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        padding-left: 8.4vw;
+        padding-top: 0.4vw;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .blistsectionitem:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+        transition: 1s;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .tlistsectionitem {
+        width: 100%;
+        height: 8.4vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: relative;
+        padding-left: 8.4vw;
+        padding-top: 0.4vw;
+        color: rgba(0, 0, 0, 0.75);
+    }
+
+    .tlistsectionitem:hover {
+        background-color: rgba(0, 0, 0, 0.25);
+        transition: 1s;
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    .wlistsectionitem:before,
+    .blistsectionitem:before,
+    .tlistsectionitem:before {
+        content: '';
+        display: inline-block;
+        width: 7.2vw;
+        height: 7.2vw;
+        border-radius: 0.2vw;
+        background-image: url(../img/icon/point1.png);
+        background-size: cover;
+        vertical-align: middle;
+        margin-right: 0.4vw;
+        position: absolute;
+        top: 50%;
+        left: 0.6vw;
+        transform: translateY(-50%);
+    }
+
+
+
+    /*newslist*/
+    .newsitem {
+        width: 100%;
+        height: 8.4vw;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 0.4vw;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .nodecoration {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+    /*table*/
+    table {
+        width: 100%;
+    }
+
+    .whitesection table {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+
+    .blacksection table {
+        border: 2px solid white;
+        border-collapse: collapse;
+    }
+
+    td,
+    th {
+        padding: 30px;
+        vertical-align: top;
+        font-size: 1.2vw;
+        line-height: 2.4vw;
+    }
+
+    .whitesection td,
+    .whitesection th {
+        color: black;
+    }
+
+    .blacksection td,
+    .blacksection th {
+        color: white;
+    }
+
+    .tablehead {
+        padding: 0;
+    }
+
+    /*tr:nth-child(even) {
+        background-color: lightgray;
+    }*/
+
+    table a {
+        text-decoration: none;
+        border-bottom: 2.5px groove;
+        border-color: transparent;
+    }
+
+    .whitesection table a {
+        color: #808080;
+    }
+
+    .blacksection table a {
+        color: #080808;
+    }
+
+    .whitesection table a:hover {
+        border-color: darkgreen;
+        transition: 0.8s;
+    }
+
+    .blacksection table a:hover {
+        border-color: lightgoldenrodyellow;
+        transition: 0.8s;
+    }
+
+
+
+
+    /*link-hover*/
+    .linktextw {
+        text-decoration: none;
+        border-bottom: 3.5px groove;
+        color: white;
+        border-bottom-color: transparent;
+    }
+
+    .linktextw:hover {
+        border-bottom-color: deepskyblue;
+        transition: 0.7s;
+    }
+
+    .linktextb {
+        text-decoration: none;
+        border-bottom: 3.5px groove;
+        border-bottom-color: transparent;
+        color: black;
+    }
+
+    .linktextb:hover {
+        border-bottom-color: yellow;
+        transition: 0.7s;
+    }
+
+
+
+
+    /*title-border*/
+    .borderline {
+        border-bottom: 3.5px dashed;
+        border-bottom-color: cadetblue;
+        position: relative;
+        z-index: 1;
+        padding-left: 22px;
+    }
+
+    .borderline:before {
+        content: '';
+        display: inline-block;
+        width: 2.1vw;
+        height: 2.1vw;
+        background-image: url(../img/icon/point1.png);
+        background-size: cover;
+        vertical-align: middle;
+        margin-right: 0.5vw;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+    }
+
+
+
+
+    /*blog*/
+    .blog {
+        color: black;
+        background-color: rgba(255,255,255,0.7);
+        margin: 2vw;
+        border-radius: 2vw;
+        padding: 40px 40px 40px 40px;
+    }
+
+    .blog-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-content {
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    #first-blog-content {
+        margin-top: 0px;
+    }
+
+    .blogsection {
+        border-bottom: 2.5px dashed;
+        border-bottom-color: cadetblue;
+        position: relative;
+        z-index: 1;
+        padding-left: 30px;
+    }
+
+    .blogsection:before {
+        content: '';
+        display: inline-block;
+        width: 1.6vw;
+        height: 1.6vw;
+        background-image: url(../img/icon/point1.png);
+        background-size: cover;
+        vertical-align: middle;
+        margin-right: 0.4vw;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+    }
+
+    .blogsub {
+        width: auto;
+        border-bottom: 2px solid;
+        border-bottom-color: cadetblue;
+        position: relative;
+        font-size: 1.2vw;
+        line-height: 2.4vw;
+        z-index: 1;
+        padding: 0px 20px 0px 20px;
+        margin-top: 30px;
+    }
+
+    .blog-content .textline {
+        width: 100%;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .blog-content img {
+        width: 100%;
+        padding: 10px 40px 0px 40px;
+    }
+
+    .blog-footer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .blog-link {
+        text-decoration: none;
+        border-bottom: 2px groove;
+        color: darkslateblue;
+        border-bottom-color: transparent;
+    }
+
+    .blog-link:hover {
+        border-bottom-color: green;
+        transition: 0.7s;
+    }
+
+    .blogbackbutton {
+        text-align: center;
+    }
+
+    .blog-backlink {
+        text-decoration: none;
+        border-bottom: 2.5px groove;
+        color: darkblue;
+        border-bottom-color: transparent;
+    }
+
+    .blog-backlink:hover {
+        border-bottom-color: green;
+        transition: 0.7s;
+    }
+
+}
