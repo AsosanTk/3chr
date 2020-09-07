@@ -417,6 +417,7 @@ body {
         display: block;
         position: fixed;
         transform: translateX(-20vw);
+        trasition: 1s;
     }
     .mainmenu-pc {
         position: relative;
