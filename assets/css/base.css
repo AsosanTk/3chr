@@ -405,6 +405,14 @@ body {
         width: 60vw;
         margin-left: 20vw;
     }
+    .pcmenu {
+        width: 12vw;
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: 4vw;
+        display: block;
+        position: fixed;
+    }
 }
 
 
