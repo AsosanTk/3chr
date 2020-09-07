@@ -461,6 +461,8 @@ body {
         width: 10vw;
         height: 34px;
         margin-top: 9px; 
+        left: 50%;
+        transform: translateY(-50%);
     }
     .mainmenu-pc-iconitem {
         list-style: none;
