@@ -50,6 +50,8 @@ jQuery(function ($) {
         windowScrollTop = $(this).scrollTop();
         if (windowScrollTop >= 120) {
             $('.pcmenu').css('transform', 'translateX(0)');
+        } else {
+            $('.pcmenu').css('transform', 'translateX(-20vw)');
         }
         
         if (!menubtn.hasClass('active')) {
