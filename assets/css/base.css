@@ -12,7 +12,75 @@ body {
 }
 
 
-/*header*/
+@media screen and (max-width: 800px) {
+
+    /*font size*/
+    h2 {
+        font-size: 20px;
+        line-height: 40px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 34px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    h4 {
+        font-size: 14.5px;
+        line-height: 29px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    h5 {
+        font-size: 13px;
+        line-height: 26px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .textline {
+        margin-top: 4px;
+        font-size: 11px;
+        line-height: 22px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .headline {
+        font-size: 13px;
+        line-height: 26px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    small {
+        font-size: 8px;
+        line-height: 12px;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    td,
+    th {
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    /*header*/
     header {
         position: fixed;
         background-color: rgba(255, 255, 255, 0.9);
@@ -214,74 +282,6 @@ body {
     }
 
 
-@media screen and (max-width: 800px) {
-
-    /*font size*/
-    h2 {
-        font-size: 20px;
-        line-height: 40px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    h3 {
-        font-size: 17px;
-        line-height: 34px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    h4 {
-        font-size: 14.5px;
-        line-height: 29px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    h5 {
-        font-size: 13px;
-        line-height: 26px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-
-    }
-
-    .textline {
-        margin-top: 4px;
-        font-size: 11px;
-        line-height: 22px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 200;
-        font-style: normal;
-    }
-
-    .headline {
-        font-size: 13px;
-        line-height: 26px;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 200;
-        font-style: normal;
-    }
-
-    small {
-        font-size: 8px;
-        line-height: 12px;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    td,
-    th {
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
 
 
     /*footer*/
@@ -394,174 +394,6 @@ body {
 
 
 @media screen and (min-width: 801px) {
-
-    /*font size*/
-    h2 {
-        font-size: 2.6vw;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        line-height: 5.2vw;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    h3 {
-        font-size: 2.1vw;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        line-height: 4.2vw;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    h4 {
-        font-size: 1.6vw;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        line-height: 3.2vw;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    h5 {
-        font-size: 1.2vw;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 300;
-        line-height: 2.4vw;
-        font-style: normal;
-    }
-
-    .textline {
-        margin-top: 0.15vw;
-        font-size: 0.9vw;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 200;
-        line-height: 1.8vw;
-        font-style: normal;
-    }
-    
-    .headline {
-        font-size: 1.2vw;
-        line-height: 2.4vw;
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 200;
-        font-style: normal;
-    }
-
-    small {
-        font-size: 0.5vw;
-        font-family: acumin-pro, sans-serif;
-        line-height: 1vw;
-        font-style: normal;
-    }
-
-    td,
-    th {
-        font-family: source-han-sans-cjk-ja, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-
-
-    /*footer*/
-    footer {
-        text-align: center;
-        background-color: steelblue;
-        color: white;
-        padding: 8vw 45px 8vw 45px;
-        width: 100vw;
-    }
-
-    .footer-name {
-        font-size: 1.2vw;
-        line-height: 2.4vw;
-    }
-
-    .footer-iconview {
-        width: 100%;
-        height: 85px;
-    }
-
-    .footer-iconview .footer-icons {
-        height: 85px;
-        width: 80%;
-        position: absolute;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
-
-    .footer-icons li {
-        list-style: none;
-        display: inline-block;
-    }
-
-    .footer-icon {
-        width: 45px;
-        height: 45px;
-        cursor: pointer;
-        margin-top: 15px;
-        background-color: transparent;
-        border: 1px solid white;
-        border-radius: 50%;
-    }
-
-    .footer-icon div {
-        width: 35px;
-        height: 35px;
-        margin: 4px;
-    }
-
-    #foottwilogo {
-        margin-right: 30px;
-    }
-
-    #foottwilogo div {
-        background-image: url("../img/logo/twitter_logowhite.png");
-        background-size: cover;
-    }
-
-    #footinslogo div {
-        background-image: url(../img/logo/instagram_logowhite.png);
-        background-size: cover;
-    }
-
-    #foottwilogo:hover,
-    #footinslogo:hover {
-        background-color: rgba(255, 255, 255, 0.85);
-        transition: 0.8s;
-    }
-
-    #foottwilogo:hover div {
-        background-image: url(../img/logo/twitter_logocolor.png);
-        transition: 0.8s;
-    }
-
-    #footinslogo:hover div {
-        background-image: url(../img/logo/instagram_logocolor.png);
-        transition: 0.8s;
-    }
-
-    .footer-copylight {
-        width: 100%;
-        margin-top: 0px;
-    }
-
-    .footer-logo {
-        margin-top: 40px;
-        width: 300px;
-        display: block;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    
-    /*fadeInUp()*/
-    .fadeInUp {
-        opacity: 0;
-        transform: translateY(45px);
-        transition: 1s;
-    }
-
 }
 
 
