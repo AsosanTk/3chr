@@ -413,9 +413,10 @@ body {
         margin-left: 4vw;
         top: 50%;
         -webkit-transform: translateY(-50%);
-        transform: translate(-20vw, -50%);
+        transform: translateY(-50%);
         display: block;
         position: fixed;
+        transform: translateX(-20vw);
         transition: 1s;
     }
     .mainmenu-pc {
@@ -459,9 +460,7 @@ body {
     .mainmenu-pc-icon {
         width: 10vw;
         height: 34px;
-        margin-top: 9px; 
-        left: 50%;
-        transform: translateY(-50%);
+        margin-top: 9px;
     }
     .mainmenu-pc-iconitem {
         list-style: none;
