@@ -49,9 +49,9 @@ jQuery(function ($) {
         
         windowScrollTop = $(this).scrollTop();
         if (windowScrollTop >= 120) {
-            $('.pcmenu').css('transform', 'translateX(0)');
+            $('.pcmenu').css('transform', 'translate(0, -50%)');
         } else {
-            $('.pcmenu').css('transform', 'translateX(-20vw)');
+            $('.pcmenu').css('transform', 'translateX(-20vw, -50%)');
         }
         
         if (!menubtn.hasClass('active')) {
