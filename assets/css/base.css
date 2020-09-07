@@ -407,9 +407,13 @@ body {
     }
     .pcmenu {
         width: 12vw;
-        height: 300px;
+        height: 320px;
+        padding: 24px 10% 24px 10%;
         background-color: rgba(255, 255, 255, 0.5);
         margin-left: 4vw;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
         display: block;
         position: fixed;
     }
