@@ -457,6 +457,27 @@ body {
     #thispage-pc {
         border-bottom-color: blue;
     }
+    .mainmenu-pc-icon {
+        width: 10vw;
+        height: 34px;
+        margin-top: 9px; 
+    }
+    .mainmenu-pc-iconitem {
+        list-style: none;
+        display: inline-block;
+    }
+    #twipclink {
+        padding-right: 30px;
+    }
+    .mainmenu-pc-iconitem img {
+        width: 15px;
+        height: 15px;
+        border-bottom: 1.5px solid transparent;
+    }
+    .mainmenu-pc-iconitem:hover {
+        transition: 0.6s;
+        border-bottom-color: blue;
+    }
 }
 
 
