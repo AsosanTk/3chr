@@ -11,15 +11,6 @@ body {
 
 }
 
-/*色設定（これのみ使うこと  使用例：map-get($colors, 1);）*/
-$colors: {
-    1: #44B3C2,
-        2: #F1A94E,
-        3: #E45641,
-        4: #5D4C46,
-        5: #7B8D8E
-}
-
 
 @media screen and (max-width: 800px) {
 
@@ -391,7 +382,7 @@ $colors: {
     /*fadeInUp()*/
     .fadeInUp {
         opacity: 0;
-        transform: translateY(60px);
+        transform: translateY(30px);
         transition: 1s;
     }
     
