@@ -470,14 +470,14 @@ body {
         list-style: none;
         display: inline-block;
         width: 15px;
-        height: 16px;
+        height: 24px;
         border-bottom: 1px solid transparent;
     }
     .mainmenu-pc-iconitem img {
         width: 15px;
         height: 15px;
     }
-    .mainmenu-pc-iconitem :hover {
+    .mainmenu-pc-iconitem:hover {
         transition: 1s;
         border-bottom-color: blue;
     }
