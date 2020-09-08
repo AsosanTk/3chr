@@ -457,7 +457,9 @@ body {
         border-bottom-color: blue;
     }
     .mainmenu-pc-icon {
-        width: 10vw;
+        width: 60px;
+        left: 50%;
+        transform: translateX(-50%);
         height: 34px;
         margin-top: 9px;
     }
