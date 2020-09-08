@@ -458,17 +458,17 @@ body {
     }
     .mainmenu-pc-icon {
         width: 60px;
-        left: 50%;
+        margin-left: 50%;
         transform: translateX(-50%);
         height: 34px;
         margin-top: 9px;
     }
+    .mainmenu-pc-iconitem: nth-child(1) {
+        margin-right: 30px;
+    }
     .mainmenu-pc-iconitem {
         list-style: none;
         display: inline-block;
-    }
-    #twipclink {
-        margin-right: 30px;
     }
     .mainmenu-pc-iconitem img {
         width: 15px;
