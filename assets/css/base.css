@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: skyblue;
+    background-color: rgba(128, 169, 186, 1);
 
 }
 
@@ -476,7 +476,7 @@ body {
         border-bottom: 1px solid transparent;
     }
     .mainmenu-pc-iconitem img :hover {
-        transition: 0.6s;
+        transition: 1s;
         border-bottom-color: blue;
     }
 }
