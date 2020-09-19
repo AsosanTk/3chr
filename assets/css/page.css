@@ -475,6 +475,27 @@
         width: 100%;
         margin-top: 40px;
     }
+
+    .report-figure {
+        width: 100%;
+    }
+    .report-figure li {
+        width: 50%;
+        display: table-cell;
+        *display: inline-block;
+        *zoom: 1;
+        list-style: none;
+    }
+    .report-figure-item {
+        width: 100%;
+        padding: 20px;
+    }
+    .report-figure-image {
+        width: 100%;
+    }
+    .report-figure-item h5 {
+        text-align: center;
+    }
     
     #first-blog-content {
         margin-top: 0px;
