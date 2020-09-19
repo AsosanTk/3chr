@@ -496,6 +496,7 @@
     }
     .report-figure-image {
         width: 100%;
+        padding: 0;
     }
     .report-figure-item h5 {
         text-align: center;
@@ -585,7 +586,26 @@
 
 
 
-
+@media screen and (max-width: 600px) {
+    .report-figure {
+        width: 100%;
+    }
+    .report-figure li {
+        width: 100%;
+        display: table-cell;
+        *display: inline-block;
+        *zoom: 1;
+        list-style: none;
+    }
+    .report-figure-item {
+        width: 100%;
+        padding: 10px;
+    }
+    .report-figure-image {
+        width: 100%;
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 800px) {
     /*TOPスライドビュー*/
