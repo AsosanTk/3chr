@@ -200,7 +200,7 @@
         background-color: transparent;
     }
 
-    .listsection {
+    .listsection, .phaselistsection {
         width: 100%;
     }
 
@@ -209,8 +209,14 @@
     .listsection p {
         padding: 0px 0px 0px 0px;
     }
+ 
+    .phaselistsection h4 {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
 
-    .listsection li {
+    .listsection li, .phaselistsection li {
         width: 100%;
         display: inline-block;
         list-style: none;
@@ -221,6 +227,22 @@
 
     #lastlistitem {
         border-bottom-color: transparent;
+    }
+
+    .plistsectionitem {
+        width: 100%;
+        height: 58px;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .plistsectionitem:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: 1s;
+        color: rgba(255, 255, 255, 1);
     }
 
 
