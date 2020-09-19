@@ -99,9 +99,9 @@
     }
 
     .sectionimage {
-        width: 50%;
-        margin-right: 25%;
-        margin-left: 25%;
+        width: 60%;
+        margin-right: 20%;
+        margin-left: 20%;
         padding: 20px;
     }
 
@@ -545,6 +545,12 @@
     .mainimagescontents {
         width: 100vw;
         height: 56.25vw;
+    }
+    
+    .sectionimage {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
     
     #control ul {
