@@ -486,11 +486,11 @@
         *zoom: 1;
         list-style: none;
     }
-    .report-figure-item:nth-child(1) {
+    .report-figure li .report-figure-item:nth-child(1) {
         width: 100%;
         padding: 15px 10px 15px 20px;
     }
-    .report-figure-item:nth-child(2) {
+    .report-figure li .report-figure-item:nth-child(2) {
         width: 100%;
         padding: 15px 20px 15px 10px;
     }
