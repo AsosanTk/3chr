@@ -546,9 +546,9 @@
         padding: 0px 20px 0px 20px;
     }
 
-    .blog-content img {
+    .blogimage {
         width: 100%;
-        padding: 10px 20px 0px 20px;
+        padding: 10px 20px 10px 20px;
     }
 
     .blog-footer {
@@ -592,9 +592,7 @@
     }
     .report-figure li {
         width: 100%;
-        display: table-cell;
-        *display: inline-block;
-        *zoom: 1;
+        display: inline-block;
         list-style: none;
     }
     .report-figure-item {
