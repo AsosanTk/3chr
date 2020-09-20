@@ -614,7 +614,7 @@
     .whiteblacksection .whitesquare,
     .blackwhitesection .blacksquare {
         padding: 24px;
-        margin: 0;
+        margin: 0px 0px 8px 0px;
         border-radius: 8px;
     }
 
