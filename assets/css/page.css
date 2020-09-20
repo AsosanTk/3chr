@@ -587,7 +587,7 @@
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     /*white-black-section*/
     /*black-white-section*/
     .whiteblacksection,
@@ -644,6 +644,55 @@
     .report-figure-image {
         width: 100%;
         padding: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*TOPスライドビュー*/
+    .mainimagescontents {
+        width: 100vw;
+        height: 56.25vw;
+    }
+    
+    .sectionimage {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
+    #control ul {
+        position: relative;
+        width: 100vw;
+        height: 6vw;
+    }
+
+    #control li {
+        display: inline-block;
+        position: relative;
+        list-style: none;
+    }
+
+    #control img {
+        width: 6vw;
+        height: 6vw;
+        cursor: pointer;
+    }
+
+    #control img:hover {
+        opacity: 0.5;
+        transition: 1s;
+    }
+
+    #control #prev {
+        padding-left: 6vw;
+    }
+
+    #control #next {
+        padding-left: 76vw;
     }
 }
 
