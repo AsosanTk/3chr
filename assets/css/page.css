@@ -588,6 +588,46 @@
 
 
 @media screen and (max-width: 500px) {
+    /*white-black-section*/
+    /*black-white-section*/
+    .whiteblacksection,
+    .blackwhitesection {
+        background-color: transparent;
+        margin: 8px;
+    }
+
+    .whiteblacksection ul,
+    .blackwhitesection ul {
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    .whiteblacksection ul li,
+    .blackwhitesection ul li {
+        margin: 0;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .whiteblacksection .whitesquare,
+    .blackwhitesection .blacksquare {
+        padding: 24px;
+        margin: 0;
+        border-radius: 8px;
+    }
+
+
+    .whiteblacksection .blacksquare,
+    .blackwhitesection .whitesquare {
+        padding: 24px;
+        margin: 0;
+        border-radius: 8px;
+    }
+
+    
+    
     .report-figure {
         width: 100%;
     }
