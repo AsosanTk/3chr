@@ -65,6 +65,14 @@ body {
         font-style: normal;
     }
 
+    .blogsub {
+        font-size: 13px;
+        line-height: 26px;
+        font-family: source-han-sans-cjk-ja, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
     small {
         font-size: 8px;
         line-height: 12px;
