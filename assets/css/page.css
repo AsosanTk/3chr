@@ -487,12 +487,13 @@
         list-style: none;
     }
     .report-figure li:nth-child(odd) {
-        width: 100%;
         padding: 15px 10px 15px 20px;
     }
     .report-figure li:nth-child(even) {
-        width: 100%;
         padding: 15px 20px 15px 10px;
+    }
+    .report-figure-item {
+        width: 100%;
     }
     .report-figure-image {
         width: 100%;
