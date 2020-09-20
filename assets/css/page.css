@@ -486,11 +486,11 @@
         *zoom: 1;
         list-style: none;
     }
-    .report-figure li .report-figure-item:nth-child(1) {
+    .report-figure li:nth-child(odd) {
         width: 100%;
         padding: 15px 10px 15px 20px;
     }
-    .report-figure li .report-figure-item:nth-child(2) {
+    .report-figure li:nth-child(even) {
         width: 100%;
         padding: 15px 20px 15px 10px;
     }
@@ -593,6 +593,7 @@
     .report-figure li {
         width: 100%;
         display: inline-block;
+        padding: 0;
         list-style: none;
     }
     .report-figure-item {
