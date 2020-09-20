@@ -181,12 +181,12 @@
 
     .whitesquare h4,
     .blacksquare h4 {
-        height: 58px;
+        height: 29px;
     }
 
     .whitesquare h5,
     .blacksquare h5 {
-        height: 78px;
+        height: 52px;
     }
 
 
@@ -390,12 +390,12 @@
     }
 
     .whitesection table a:hover {
-        border-color: darkgreen;
+        border-color: mediumblue;
         transition: 0.8s;
     }
 
     .blacksection table a:hover {
-        border-color: lightgoldenrodyellow;
+        border-color: mediumblue;
         transition: 0.8s;
     }
 
@@ -411,7 +411,7 @@
     }
 
     .linktextw:hover {
-        border-bottom-color: deepskyblue;
+        border-bottom-color: mediumblue;
         transition: 0.7s;
     }
 
@@ -423,7 +423,7 @@
     }
 
     .linktextb:hover {
-        border-bottom-color: yellow;
+        border-bottom-color: mediumblue;
         transition: 0.7s;
     }
 
@@ -565,7 +565,7 @@
     }
 
     .blog-link:hover {
-        border-bottom-color: green;
+        border-bottom-color: mediumblue;
         transition: 0.7s;
     }
 
