@@ -73,6 +73,10 @@ body {
         font-style: normal;
     }
 
+    .emphasize {
+        color: darkorange;
+    }
+
     td,
     th {
         font-family: source-han-sans-cjk-ja, sans-serif;
