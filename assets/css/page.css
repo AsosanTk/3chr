@@ -637,6 +637,10 @@
         margin: 0;
         border-radius: 8px;
     }
+    
+    .iconimage {
+        display: none;
+    }
 
     
     
