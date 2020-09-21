@@ -27,7 +27,7 @@ jQuery(function ($) {
     
     
     /*bar*/
-    var setE = $('.split'), delaySpeed = 100, fadeSpeed = 0;
+    var setE = $('.split'), delaySpeed = 200, fadeSpeed = 0;
     var setText = setE.html();
     setE.css('visibility', 'visible').children().addBack().contents().each(function(){
         var elmThis = $(this);
