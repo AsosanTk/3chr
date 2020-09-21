@@ -7,7 +7,7 @@ $(window).on("load", function() {
         $(".loading").delay(500).fadeOut(500);
         $(".loading-tag").delay(500).fadeOut(500);
     }
-})
+});
 
 
 jQuery(function ($) {
