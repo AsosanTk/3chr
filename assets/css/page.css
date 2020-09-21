@@ -595,6 +595,14 @@
         transition: 0.7s;
     }
 
+    /*タイプライタークラス*/
+    .split {
+        visibility: hidden;
+    }
+    .textSplitLoad {
+        display: none;
+    }
+
 
 
 @media screen and (max-width: 450px) {
