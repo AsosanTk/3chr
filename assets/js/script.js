@@ -148,7 +148,7 @@ $(window).on("load", function () {
         $(".loading-tag").delay(500).fadeOut(500);
     }
     
-    var splitLength = $('.textSplitLoad').length;
+    splitLength = $('.textSplitLoad').length;
         setE.find('.textSplitLoad').each(function(i){
             splitThis = $(this);
             splitTxt = splitThis.text();
