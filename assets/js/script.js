@@ -3,7 +3,16 @@
 /*onload*/
 $(window).on("load", function () {
     stopload();
-})
+    splitLength = $('.textSplitLoad').length;
+        setE.find('.textSplitLoad').each(function(i){
+            splitThis = $(this);
+            splitTxt = splitThis.text();
+            splitThis.delay(i*(delaySpeed)).css({display:'inline-block',opacity:'0'}).animate({opacity:'1'},fadeSpeed);
+        });
+        setTimeout(function(){
+                setE.html(setText);
+        },splitLength*delaySpeed+fadeSpeed);
+});
 setTimeout(stopload(), 10000);
 function stopload() {
     $(".loading").delay(500).fadeOut(500);
@@ -24,6 +33,19 @@ jQuery(function ($) {
         });
     }
     fadeInUp();
+    
+    
+    /*bar*/
+    var setE = $('.split'), delaySpeed = 100, fadeSpeed = 0;
+    setText = setE.html();
+    setE.css('visibility':'visible').children().addBack().contents().each(function(){
+        var elmThis = $(this);
+        if (this.nodeType == 3) {
+            var $this = $(this);
+            $this.replaceWith($this.text().replace(/(\S)/g, '<span class="textSplitLoad">$&</span>'));
+        }
+    });
+
     
     
     /*menu*/
