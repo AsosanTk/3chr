@@ -598,9 +598,25 @@
     /*タイプライタークラス*/
     .split {
         visibility: hidden;
+        text-align: center;
     }
     .textSplitLoad {
         display: none;
+    }
+    .bar {
+        -webkit-animation: blinkingbar 0.2s infinite;
+        animation: blinkingbar 0.2s infinite;
+    }
+    @keyframes blinkingbar {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
 
