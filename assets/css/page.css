@@ -615,8 +615,8 @@
         animation: blinkingbar 1s infinite;
         background-color: black;
         width: 1px;
-        height: 20px;
-        
+        height: 17px;
+        display: inline-block;
         
     }
     @keyframes blinkingbar {
