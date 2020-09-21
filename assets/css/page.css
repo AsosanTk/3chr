@@ -648,6 +648,29 @@
     .iconimage {
         display: none;
     }
+    .linktextw {
+        text-decoration: none;
+        border-bottom: 2px groove;
+        color: black;
+        border-bottom-color: transparent;
+    }
+
+    .linktextw:hover {
+        border-bottom-color: mediumblue;
+        transition: 0.7s;
+    }
+
+    .linktextb {
+        text-decoration: none;
+        border-bottom: 2px groove;
+        border-bottom-color: transparent;
+        color: white;
+    }
+
+    .linktextb:hover {
+        border-bottom-color: mediumblue;
+        transition: 0.7s;
+    }
 
     
     
