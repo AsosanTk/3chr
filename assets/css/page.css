@@ -7,8 +7,6 @@
         z-index: 100;
         width: 100%;
         height: 100%;
-        margin: 8px;
-        border-radius: 8px;
     }
 
     #top-photolist li {
@@ -686,26 +684,26 @@
     .iconimage {
         display: none;
     }
-    .linktextw {
+    .blackwhitesection .linktextw {
         text-decoration: none;
         border-bottom: 2px groove;
         color: black;
         border-bottom-color: transparent;
     }
 
-    .linktextw:hover {
+    .blackwhitesection .linktextw:hover {
         border-bottom-color: mediumblue;
         transition: 0.7s;
     }
 
-    .linktextb {
+    .blackwhitesection .linktextb {
         text-decoration: none;
         border-bottom: 2px groove;
         border-bottom-color: transparent;
         color: white;
     }
 
-    .linktextb:hover {
+    .blackwhitesection .linktextb:hover {
         border-bottom-color: mediumblue;
         transition: 0.7s;
     }
