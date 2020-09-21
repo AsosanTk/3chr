@@ -137,12 +137,9 @@ jQuery(function ($) {
 
     photoChange($('.mainimagescontents'));
 
-
-});
-
-
-
-/*onload*/
+    
+    
+    /*onload*/
 $(window).on("load", function () {
     stopload();
     setTimeout(stopload(), 10000);
@@ -161,3 +158,9 @@ $(window).on("load", function () {
                 setE.html(setText);
         },splitLength*delaySpeed+fadeSpeed);
 });
+
+
+});
+
+
+
