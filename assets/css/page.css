@@ -605,6 +605,7 @@
     .split {
         visibility: hidden;
         text-align: center;
+        font-weight: 400;
     }
     .textSplitLoad {
         display: none;
