@@ -148,10 +148,10 @@ $(window).on("load", function () {
         $(".loading-tag").delay(500).fadeOut(500);
     }
     
-    splitLength = $('.textSplitLoad').length;
+    var splitLength = $('.textSplitLoad').length;
         setE.find('.textSplitLoad').each(function(i){
-            splitThis = $(this);
-            splitTxt = splitThis.text();
+            var splitThis = $(this);
+            var splitTxt = splitThis.text();
             splitThis.delay(i*(delaySpeed)).css({display:'inline-block',opacity:'0'}).animate({opacity:'1'},fadeSpeed);
         });
         setTimeout(function(){
