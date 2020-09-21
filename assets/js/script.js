@@ -3,7 +3,7 @@
 /*onload*/
 $(window).on("load", function () {
     stopload();
-    splitLength = $('.textSplitLoad').length;
+    var splitLength = $('.textSplitLoad').length;
         setE.find('.textSplitLoad').each(function(i){
             splitThis = $(this);
             splitTxt = splitThis.text();
