@@ -1,5 +1,13 @@
 'use strict';
 
+$(window).on("load", function() {
+    stopload();
+    setTimeout(stopload(), 10000);
+    function stopload() {
+        $(".loading").delay(500).fadeOut(500);
+        $(".loading-tag").delay(500).fadeOut(500);
+    }
+})
 
 
 jQuery(function ($) {
@@ -141,12 +149,6 @@ jQuery(function ($) {
     
     /*onload*/
 $(window).on("load", function () {
-    stopload();
-    setTimeout(stopload(), 10000);
-    function stopload() {
-        $(".loading").delay(500).fadeOut(500);
-        $(".loading-tag").delay(500).fadeOut(500);
-    }
     
     var splitLength = $('.textSplitLoad').length;
         setE.find('.textSplitLoad').each(function(i){
@@ -161,6 +163,8 @@ $(window).on("load", function () {
 
 
 });
+
+
 
 
 
