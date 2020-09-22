@@ -616,8 +616,6 @@
         opacity: 0;
         background-color: black;
         display: inline-block;
-    }
-    .blinkingbar {
         -webkit-animation: blinkingbar 1s infinite;
         animation: blinkingbar 1s infinite;
     }
