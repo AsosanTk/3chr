@@ -159,6 +159,7 @@ $(window).on("load", function () {
         setTimeout(function(){
                 setE.html(setText);
         },splitLength*delaySpeed+fadeSpeed);
+    $('.bar').addClass('blinkingbar');
 });
 
 
