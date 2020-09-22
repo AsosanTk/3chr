@@ -99,7 +99,7 @@
     }
 
     .sectionimage {
-        width: 60%;
+        width: 100%;
         margin-right: 20%;
         margin-left: 20%;
         padding: 20px;
@@ -611,13 +611,15 @@
         display: none;
     }
     .bar {
-        -webkit-animation: blinkingbar 1s infinite;
-        animation: blinkingbar 1s infinite;
-        background-color: black;
         width: 1px;
         height: 17px;
+        opacity: 0;
+        background-color: black;
         display: inline-block;
-        
+    }
+    .blinkingbar {
+        -webkit-animation: blinkingbar 1s infinite;
+        animation: blinkingbar 1s infinite;
     }
     @keyframes blinkingbar {
         0% {
@@ -740,11 +742,6 @@
         height: 56.25vw;
     }
     
-    .sectionimage {
-        width: 80%;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
     
     #control ul {
         position: relative;
