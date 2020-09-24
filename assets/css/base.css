@@ -124,15 +124,6 @@ body {
         cursor: pointer;
     }
 
-    #instalink {
-        width: 25px;
-        height: 25px;
-        margin-right: 25px;
-        margin-top: 20px;
-        z-index: 1001;
-        cursor: pointer;
-    }
-
     .btn-trigger {
         position: relative;
         width: 25px;
@@ -149,7 +140,7 @@ body {
     header .titlebar {
         position: relative;
         transform: translateY(-45px);
-        width: 170px;
+        width: 200px;
         height: 25px;
         padding-left: 7vw;
         z-index: 10;
@@ -352,24 +343,14 @@ body {
         background-size: cover;
     }
 
-    #footinslogo div {
-        background-image: url(../img/logo/instagram_logowhite.png);
-        background-size: cover;
-    }
 
-    #foottwilogo:hover,
-    #footinslogo:hover {
+    #foottwilogo:hover {
         background-color: rgba(255, 255, 255, 0.85);
         transition: 0.8s;
     }
 
     #foottwilogo:hover div {
         background-image: url(../img/logo/twitter_logocolor.png);
-        transition: 0.8s;
-    }
-
-    #footinslogo:hover div {
-        background-image: url(../img/logo/instagram_logocolor.png);
         transition: 0.8s;
     }
 
@@ -467,14 +448,11 @@ body {
         border-bottom-color: mediumblue;
     }
     .mainmenu-pc-icon {
-        width: 54px;
+        width: 15px;
         margin-left: 50%;
         transform: translateX(-50%);
         height: 34px;
         margin-top: 9px;
-    }
-    #mainmenu-pc-icon-lastitem {
-        padding-left: 24px;
     }
     .mainmenu-pc-iconitem {
         list-style: none;
@@ -488,6 +466,7 @@ body {
     .mainmenu-pc-iconitem img {
         width: 15px;
         height: 15px;
+        
     }
     .mainmenu-pc-iconitem:hover {
         transition: 1s;
