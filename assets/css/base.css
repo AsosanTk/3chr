@@ -115,6 +115,16 @@ body {
         float: right;
     }
 
+    /*#instalink {
+        width: 25px;
+        height: 25px;
+        margin-right: 25px;
+        margin-top: 20px;
+        z-index: 1001;
+        cursor: pointer;
+    }*/
+
+
     #twilink {
         width: 25px;
         height: 25px;
@@ -323,6 +333,8 @@ body {
         height: 35px;
         cursor: pointer;
         margin-top: 10px;
+        /*追記*/
+        margin-left: 10px;
         background-color: transparent;
         border: 1px solid white;
         border-radius: 50%;
@@ -343,10 +355,23 @@ body {
         background-size: cover;
     }
 
+    /*#footinslogo div {
+        background-image: url(../img/logo/instagram_logowhite.png);
+        background-size: cover;
+    }*/
 
     #foottwilogo:hover {
         background-color: rgba(255, 255, 255, 0.85);
         transition: 0.8s;
+    }
+
+    #footinslogo:hover {
+        background-color: rgba(255, 255, 255, 0.85);
+        transition: 0.8s;
+    }
+
+    #mainmenu-pc-icon-lastitem {
+        padding: 24px;
     }
 
     #foottwilogo:hover div {
