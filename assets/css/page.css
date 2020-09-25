@@ -597,7 +597,7 @@
     }
 
     .blog-backlink:hover {
-        border-bottom-color: green;
+        border-bottom-color: mediumblue;
         transition: 0.7s;
     }
 
