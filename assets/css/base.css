@@ -316,7 +316,8 @@ body {
 
     .footer-iconview .footer-icons {
         height: 65px;
-        width: 80%;
+        /*width: 80%;*/
+        width: 35px;
         position: absolute;
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -333,8 +334,6 @@ body {
         height: 35px;
         cursor: pointer;
         margin-top: 10px;
-        /*追記*/
-        margin-left: 10px;
         background-color: transparent;
         border: 1px solid white;
         border-radius: 50%;
@@ -346,9 +345,9 @@ body {
         margin: 4px;
     }
 
-    #foottwilogo {
+    /*#foottwilogo {
         margin-right: 15px;
-    }
+    }*/
 
     #foottwilogo div {
         background-image: url("../img/logo/twitter_logowhite.png");
