@@ -518,19 +518,19 @@
         padding: 0;
     }
 
-    .report-left {
+    .figure-left {
         display: inline-block;
         float: left;
         width: 43%;
         padding: 15px 10px 15px 20px;
     }
-    .report-right {
+    .figure-right {
         display: inline-block;
         float: right;
         width: 43%;
         padding: 15px 20px 15px 10px;
     }
-    .report-horizontal {
+    .figure-horizontal {
         width: 100%;
         padding: 15px 20px 15px 20px;
     }
