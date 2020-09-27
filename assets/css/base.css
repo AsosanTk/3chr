@@ -50,8 +50,8 @@ body {
 
     .textline {
         margin-top: 4px;
-        font-size: 11px;
-        line-height: 22px;
+        font-size: 12px;
+        line-height: 24px;
         font-family: source-han-sans-cjk-ja, sans-serif;
         font-weight: 200;
         font-style: normal;
@@ -66,8 +66,8 @@ body {
     }
     
     .figureline {
-        font-size: 12px;
-        line-height: 24px;
+        font-size: 12.5px;
+        line-height: 25px;
         font-family: source-han-sans-cjk-ja, sans-serif;
         font-weight: 200;
         font-style: normal;
