@@ -748,6 +748,19 @@
         padding: 15px 20px 15px 20px;
     }
     
+    .figure-left {
+        display: inline-block;
+        float: left;
+        width: 70%;
+        padding: 15px 10px 15px 20px;
+    }
+    .figure-right {
+        display: inline-block;
+        float: right;
+        width: 70%;
+        padding: 15px 20px 15px 10px;
+    }
+    
     
     
     
@@ -794,6 +807,20 @@
 }
 
 @media screen and (min-width: 451px) and (max-width: 800px) {
+    
+    .figure-left {
+        display: inline-block;
+        float: left;
+        width: 60%;
+        padding: 15px 10px 15px 20px;
+    }
+    .figure-right {
+        display: inline-block;
+        float: right;
+        width: 60%;
+        padding: 15px 20px 15px 10px;
+    }
+    
     /*TOPスライドビュー*/
     .mainimagescontents {
         width: 100vw;
@@ -836,10 +863,24 @@
     #control #next {
         padding-left: 76vw;
     }
+    
 }
 
 
 @media screen and (min-width: 801px) {
+    .figure-left {
+        display: inline-block;
+        float: left;
+        width: 43%;
+        padding: 15px 10px 15px 20px;
+    }
+    .figure-right {
+        display: inline-block;
+        float: right;
+        width: 43%;
+        padding: 15px 20px 15px 10px;
+    }
+    
     /*TOPスライドビュー*/
     .mainimagescontents {
         width: 60vw;
