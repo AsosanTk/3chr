@@ -8,7 +8,7 @@
 
 body {
     background-color: skyblue;
-
+    -webkit-text-size-adjust: 100%; /*スマホフォントバグの修正*/
 }
 
 
