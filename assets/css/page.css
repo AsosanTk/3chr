@@ -481,6 +481,7 @@
     .centerline {
         width: 100%;
         text-align: center;
+        padding-bottom: 7px;
     }
 
 
