@@ -318,67 +318,42 @@
         left: 12px;
         transform: translateY(-50%);
     }
-    .wlistsectionitem:nth-of-type(1):before,
-    .blistsectionitem:nth-of-type(1):before,
-    .tlistsectionitem:nth-of-type(1):before {
+    .listsection li:nth-of-type(1) div:before{
         background-image: url(../img/icon/pointcolor1.png);
     }
-    .wlistsectionitem:nth-of-type(2):before,
-    .blistsectionitem:nth-of-type(2):before,
-    .tlistsectionitem:nth-of-type(2):before {
+    .listsection li:nth-of-type(2) div:before{
         background-image: url(../img/icon/pointcolor2.png);
     }
-    .wlistsectionitem:nth-of-type(3):before,
-    .blistsectionitem:nth-of-type(3):before,
-    .tlistsectionitem:nth-of-type(3):before {
+    .listsection li:nth-of-type(3) div:before{
         background-image: url(../img/icon/pointcolor3.png);
     }
-    .wlistsectionitem:nth-of-type(4):before,
-    .blistsectionitem:nth-of-type(4):before,
-    .tlistsectionitem:nth-of-type(4):before {
+    .listsection li:nth-of-type(4) div:before{
         background-image: url(../img/icon/pointcolor4.png);
     }
-    .wlistsectionitem:nth-of-type(5):before,
-    .blistsectionitem:nth-of-type(5):before,
-    .tlistsectionitem:nth-of-type(5):before {
+    .listsection li:nth-of-type(5) div:before{
         background-image: url(../img/icon/pointcolor5.png);
     }
-    .wlistsectionitem:nth-of-type(6):before,
-    .blistsectionitem:nth-of-type(6):before,
-    .tlistsectionitem:nth-of-type(6):before {
+    .listsection li:nth-of-type(6) div:before{
         background-image: url(../img/icon/pointcolor6.png);
     }
-    .wlistsectionitem:nth-of-type(7):before,
-    .blistsectionitem:nth-of-type(7):before,
-    .tlistsectionitem:nth-of-type(7):before {
+    .listsection li:nth-of-type(7) div:before{
         background-image: url(../img/icon/pointcolor7.png);
     }
-    .wlistsectionitem:nth-of-type(8):before,
-    .blistsectionitem:nth-of-type(8):before,
-    .tlistsectionitem:nth-of-type(8):before {
+    .listsection li:nth-of-type(8) div:before{
         background-image: url(../img/icon/pointcolor8.png);
     }
-    .wlistsectionitem:nth-of-type(9):before,
-    .blistsectionitem:nth-of-type(9):before,
-    .tlistsectionitem:nth-of-type(9):before {
+    .listsection li:nth-of-type(9) div:before{
         background-image: url(../img/icon/pointcolor9.png);
     }
-    .wlistsectionitem:nth-of-type(10):before,
-    .blistsectionitem:nth-of-type(10):before,
-    .tlistsectionitem:nth-of-type(10):before {
+    .listsection li:nth-of-type(10) div:before{
         background-image: url(../img/icon/pointcolor10.png);
     }
-    .wlistsectionitem:nth-of-type(11):before,
-    .blistsectionitem:nth-of-type(11):before,
-    .tlistsectionitem:nth-of-type(11):before {
+    .listsection li:nth-of-type(11) div:before{
         background-image: url(../img/icon/pointcolor11.png);
     }
-    .wlistsectionitem:nth-of-type(12):before,
-    .blistsectionitem:nth-of-type(12):before,
-    .tlistsectionitem:nth-of-type(12):before {
+    .listsection li:nth-of-type(12) div:before{
         background-image: url(../img/icon/pointcolor12.png);
     }
-
 
     /*newslist*/
     .newsitem {
