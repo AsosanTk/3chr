@@ -476,6 +476,11 @@
         transform: translateY(-50%);
     }
 
+    .centerline {
+        width: 100%;
+        text-align: center;
+    }
+
 
 
 
