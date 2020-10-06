@@ -149,6 +149,8 @@
 
     .iconimage {
         width: 100%;
+        /*ひとまず画像が入るまでは*/
+        display: none;
     }
 
     .iconimage:hover {
