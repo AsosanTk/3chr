@@ -318,67 +318,66 @@
         left: 12px;
         transform: translateY(-50%);
     }
-    .wlistsectionitem:before:nth-of-type(1),
-    .blistsectionitem:before:nth-of-type(1),
-    .tlistsectionitem:before:nth-of-type(1) {
+    .wlistsectionitem:nth-of-type(1):before,
+    .blistsectionitem:nth-of-type(1):before,
+    .tlistsectionitem:nth-of-type(1):before {
         background-image: url(../img/icon/pointcolor1.png);
     }
-    .wlistsectionitem:before:nth-of-type(2),
-    .blistsectionitem:before:nth-of-type(2),
-    .tlistsectionitem:before:nth-of-type(2) {
+    .wlistsectionitem:nth-of-type(2):before,
+    .blistsectionitem:nth-of-type(2):before,
+    .tlistsectionitem:nth-of-type(2):before {
+        background-image: url(../img/icon/pointcolor2.png);
+    }
+    .wlistsectionitem:nth-of-type(3):before,
+    .blistsectionitem:nth-of-type(3):before,
+    .tlistsectionitem:nth-of-type(3):before {
         background-image: url(../img/icon/pointcolor3.png);
     }
-    .wlistsectionitem:before:nth-of-type(3),
-    .blistsectionitem:before:nth-of-type(3),
-    .tlistsectionitem:before:nth-of-type(3) {
-        background-image: url(../img/icon/pointcolor3.png);
-    }
-    .wlistsectionitem:before:nth-of-type(4),
-    .blistsectionitem:before:nth-of-type(4),
-    .tlistsectionitem:before:nth-of-type(4) {
+    .wlistsectionitem:nth-of-type(4):before,
+    .blistsectionitem:nth-of-type(4):before,
+    .tlistsectionitem:nth-of-type(4):before {
         background-image: url(../img/icon/pointcolor4.png);
     }
-    .wlistsectionitem:before:nth-of-type(5),
-    .blistsectionitem:before:nth-of-type(5),
-    .tlistsectionitem:before:nth-of-type(5) {
+    .wlistsectionitem:nth-of-type(5):before,
+    .blistsectionitem:nth-of-type(5):before,
+    .tlistsectionitem:nth-of-type(5):before {
         background-image: url(../img/icon/pointcolor5.png);
     }
-    .wlistsectionitem:before:nth-of-type(6),
-    .blistsectionitem:before:nth-of-type(6),
-    .tlistsectionitem:before:nth-of-type(6) {
+    .wlistsectionitem:nth-of-type(6):before,
+    .blistsectionitem:nth-of-type(6):before,
+    .tlistsectionitem:nth-of-type(6):before {
         background-image: url(../img/icon/pointcolor6.png);
     }
-    .wlistsectionitem:before:nth-of-type(7),
-    .blistsectionitem:before:nth-of-type(7),
-    .tlistsectionitem:before:nth-of-type(7) {
+    .wlistsectionitem:nth-of-type(7):before,
+    .blistsectionitem:nth-of-type(7):before,
+    .tlistsectionitem:nth-of-type(7):before {
         background-image: url(../img/icon/pointcolor7.png);
     }
-    .wlistsectionitem:before:nth-of-type(8),
-    .blistsectionitem:before:nth-of-type(8),
-    .tlistsectionitem:before:nth-of-type(8) {
+    .wlistsectionitem:nth-of-type(8):before,
+    .blistsectionitem:nth-of-type(8):before,
+    .tlistsectionitem:nth-of-type(8):before {
         background-image: url(../img/icon/pointcolor8.png);
     }
-    .wlistsectionitem:before:nth-of-type(9),
-    .blistsectionitem:before:nth-of-type(9),
-    .tlistsectionitem:before:nth-of-type(9) {
+    .wlistsectionitem:nth-of-type(9):before,
+    .blistsectionitem:nth-of-type(9):before,
+    .tlistsectionitem:nth-of-type(9):before {
         background-image: url(../img/icon/pointcolor9.png);
     }
-    .wlistsectionitem:before:nth-of-type(10),
-    .blistsectionitem:before:nth-of-type(10),
-    .tlistsectionitem:before:nth-of-type(10) {
+    .wlistsectionitem:nth-of-type(10):before,
+    .blistsectionitem:nth-of-type(10):before,
+    .tlistsectionitem:nth-of-type(10):before {
         background-image: url(../img/icon/pointcolor10.png);
     }
-    .wlistsectionitem:before:nth-of-type(11),
-    .blistsectionitem:before:nth-of-type(11),
-    .tlistsectionitem:before:nth-of-type(11) {
+    .wlistsectionitem:nth-of-type(11):before,
+    .blistsectionitem:nth-of-type(11):before,
+    .tlistsectionitem:nth-of-type(11):before {
         background-image: url(../img/icon/pointcolor11.png);
     }
-    .wlistsectionitem:before:nth-of-type(12),
-    .blistsectionitem:before:nth-of-type(12),
-    .tlistsectionitem:before:nth-of-type(12) {
+    .wlistsectionitem:nth-of-type(12):before,
+    .blistsectionitem:nth-of-type(12):before,
+    .tlistsectionitem:nth-of-type(12):before {
         background-image: url(../img/icon/pointcolor12.png);
     }
-
 
 
     /*newslist*/
