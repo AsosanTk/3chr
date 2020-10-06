@@ -309,7 +309,7 @@
         width: 72px;
         height: 72px;
         border-radius: 4px;
-        background-image: url(../img/icon/point1.png);
+        
         background-size: cover;
         vertical-align: middle;
         margin-right: 5px;
@@ -317,6 +317,66 @@
         top: 50%;
         left: 12px;
         transform: translateY(-50%);
+    }
+    .wlistsectionitem:before:nth-of-type(1),
+    .blistsectionitem:before:nth-of-type(1),
+    .tlistsectionitem:before:nth-of-type(1) {
+        background-image: url(../img/icon/pointcolor1.png);
+    }
+    .wlistsectionitem:before:nth-of-type(2),
+    .blistsectionitem:before:nth-of-type(2),
+    .tlistsectionitem:before:nth-of-type(2) {
+        background-image: url(../img/icon/pointcolor3.png);
+    }
+    .wlistsectionitem:before:nth-of-type(3),
+    .blistsectionitem:before:nth-of-type(3),
+    .tlistsectionitem:before:nth-of-type(3) {
+        background-image: url(../img/icon/pointcolor3.png);
+    }
+    .wlistsectionitem:before:nth-of-type(4),
+    .blistsectionitem:before:nth-of-type(4),
+    .tlistsectionitem:before:nth-of-type(4) {
+        background-image: url(../img/icon/pointcolor4.png);
+    }
+    .wlistsectionitem:before:nth-of-type(5),
+    .blistsectionitem:before:nth-of-type(5),
+    .tlistsectionitem:before:nth-of-type(5) {
+        background-image: url(../img/icon/pointcolor5.png);
+    }
+    .wlistsectionitem:before:nth-of-type(6),
+    .blistsectionitem:before:nth-of-type(6),
+    .tlistsectionitem:before:nth-of-type(6) {
+        background-image: url(../img/icon/pointcolor6.png);
+    }
+    .wlistsectionitem:before:nth-of-type(7),
+    .blistsectionitem:before:nth-of-type(7),
+    .tlistsectionitem:before:nth-of-type(7) {
+        background-image: url(../img/icon/pointcolor7.png);
+    }
+    .wlistsectionitem:before:nth-of-type(8),
+    .blistsectionitem:before:nth-of-type(8),
+    .tlistsectionitem:before:nth-of-type(8) {
+        background-image: url(../img/icon/pointcolor8.png);
+    }
+    .wlistsectionitem:before:nth-of-type(9),
+    .blistsectionitem:before:nth-of-type(9),
+    .tlistsectionitem:before:nth-of-type(9) {
+        background-image: url(../img/icon/pointcolor9.png);
+    }
+    .wlistsectionitem:before:nth-of-type(10),
+    .blistsectionitem:before:nth-of-type(10),
+    .tlistsectionitem:before:nth-of-type(10) {
+        background-image: url(../img/icon/pointcolor10.png);
+    }
+    .wlistsectionitem:before:nth-of-type(11),
+    .blistsectionitem:before:nth-of-type(11),
+    .tlistsectionitem:before:nth-of-type(11) {
+        background-image: url(../img/icon/pointcolor11.png);
+    }
+    .wlistsectionitem:before:nth-of-type(12),
+    .blistsectionitem:before:nth-of-type(12),
+    .tlistsectionitem:before:nth-of-type(12) {
+        background-image: url(../img/icon/pointcolor12.png);
     }
 
 
