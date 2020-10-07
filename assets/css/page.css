@@ -502,7 +502,6 @@
         display: inline-block;
         width: 17px;
         height: 17px;
-        background-image: url(../img/icon/point1.png);
         background-size: cover;
         vertical-align: middle;
         margin-right: 5px;
@@ -510,6 +509,12 @@
         top: 50%;
         left: 0px;
         transform: translateY(-50%);
+    }
+    .borderline:nth-child(1):before {
+        background-image: url(../img/icon/monopoint1.png);
+    }
+    .borderline:nth-child(2):before {
+        background-image: url(../img/icon/monopoint2.png);
     }
 
     .centerline {
