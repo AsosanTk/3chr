@@ -511,12 +511,42 @@
         left: 0px;
         transform: translateY(-50%);
     }
-    /*.borderline:nth-child(1):before {
+    section:nth-of-type(1) .borderline:before {
         background-image: url(../img/icon/monopoint1.png);
     }
-    .borderline:nth-child(2):before {
+    section:nth-of-type(2) .borderline:before {
         background-image: url(../img/icon/monopoint2.png);
-    }*/
+    }
+    section:nth-of-type(3) .borderline:before {
+        background-image: url(../img/icon/monopoint3.png);
+    }
+    section:nth-of-type(4) .borderline:before {
+        background-image: url(../img/icon/monopoint4.png);
+    }
+    section:nth-of-type(5) .borderline:before {
+        background-image: url(../img/icon/monopoint5.png);
+    }
+    section:nth-of-type(6) .borderline:before {
+        background-image: url(../img/icon/monopoint6.png);
+    }
+    section:nth-of-type(7) .borderline:before {
+        background-image: url(../img/icon/monopoint7.png);
+    }
+    section:nth-of-type(8) .borderline:before {
+        background-image: url(../img/icon/monopoint8.png);
+    }
+    section:nth-of-type(9) .borderline:before {
+        background-image: url(../img/icon/monopoint9.png);
+    }
+    section:nth-of-type(10) .borderline:before {
+        background-image: url(../img/icon/monopoint10.png);
+    }
+    section:nth-of-type(11) .borderline:before {
+        background-image: url(../img/icon/monopoint11.png);
+    }
+    section:nth-of-type(12) .borderline:before {
+        background-image: url(../img/icon/monopoint12.png);
+    }
 
     .centerline {
         width: 100%;
