@@ -98,6 +98,14 @@ body {
         font-weight: 400;
         font-style: normal;
     }
+
+    .emphasizesb {
+        font-style: normal;
+        color: steelblue;
+        font-size: 14.5px;
+        line-height: 29px;
+        font-weight: 400;
+    }
     
     /*header*/
     header {
