@@ -106,6 +106,16 @@ body {
         line-height: 29px;
         font-weight: 500;
     }
+    .emphasizew {
+        color: darkred;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .emphasizeb {
+        color: red;
+        font-weight: 300;
+        font-style: normal;
+    }
     
     /*header*/
     header {
