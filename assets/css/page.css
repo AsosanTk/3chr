@@ -468,16 +468,7 @@
         transition: 0.7s;
     }
 
-    .emphasizew {
-        color: darkorange;
-        font-weight: 300;
-        font-style: normal;
-    }
-    .emphasizeb {
-        color: orange;
-        font-weight: 300;
-        font-style: normal;
-    }
+    
 
     .comingsoon {
         text-align: center;
