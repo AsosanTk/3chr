@@ -64,7 +64,7 @@ body {
         font-weight: 200;
         font-style: normal;
     }
-    
+
     .figureline {
         font-size: 12.5px;
         line-height: 25px;
@@ -90,7 +90,7 @@ body {
         font-style: normal;
     }
 
-    
+
 
     td,
     th {
@@ -116,7 +116,7 @@ body {
         font-weight: 300;
         font-style: normal;
     }
-    
+
     /*header*/
     header {
         position: fixed;
@@ -406,7 +406,7 @@ body {
         transition: 0.8s;
     }
 
-    .footer-copylight {
+    .footer-Copyright {
         width: 100%;
         margin-top: 0px;
     }
@@ -420,14 +420,14 @@ body {
         transform: translateX(-50%);
     }
 
-    
+
     /*fadeInUp()*/
     .fadeInUp {
         opacity: 0;
         transform: translateY(30px);
         transition: 1s;
     }
-    
+
 
 
 
@@ -518,7 +518,7 @@ body {
     .mainmenu-pc-iconitem img {
         width: 15px;
         height: 15px;
-        
+
     }
     .mainmenu-pc-iconitem:hover {
         transition: 1s;
@@ -1152,4 +1152,3 @@ body {
             transform: scaleY(1);
         }
     }
-    
