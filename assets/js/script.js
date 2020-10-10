@@ -87,7 +87,7 @@ jQuery(function ($) {
       if ( /\W+/g.test(UserInput) ) {
         alert("半角英数字で入力してください。");
       } else if(UserInput != null) {
-        location.href = "assets/img/ps/" + UserInput + ".html";
+        location.href = "blogs/blog00/" + UserInput + ".html";
       }
     }
 
