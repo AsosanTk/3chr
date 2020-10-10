@@ -38,6 +38,16 @@
     <script src="//code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="../assets/js/script.js"></script>
     <script type="text/javascript" src="../assets/js/font.js"></script>
+    <script type="text/javascript">
+    function gate() {
+      var UserInput = prompt("秘密のコマンドを入力してください：", "");
+      if ( /\W+/g.test(UserInput) ) {
+        alert("半角英数字で入力してください。");
+      } else if(UserInput != null) {
+        location.href = UserInput + ".html";
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -114,6 +124,7 @@
       <section class="whitesection comingsoon">
         <h2>500　サーバーの内部エラーです</h2>
         <h4>サーバー内部でトラブルが発生したようです。繰り返しこの状態が続く場合は、メール（<a class="linktextb" href="mailto:3chr.tk@gmail.com">3chr.tk@gmail.com</a>）にて</h4>管理人にお知らせくださるようお願いします。
+        <!--<input type="button" class="btn-emboss" value="Hidden Command" onclick="gate();"/>-->
     </main>
 
     <footer>
