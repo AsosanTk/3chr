@@ -257,8 +257,9 @@ body {
 
     .btn-emboss {
       width: 100%;
-      height: 70px;
-      padding: 20px;
+      height: 40px;
+      padding: 5px;
+      font-size: 30px;
       text-decoration: none;;
       background-color: #668ad8;
       color: #4868ad;
