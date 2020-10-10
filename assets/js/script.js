@@ -11,7 +11,7 @@ $(window).on("load", function() {
 
 
 jQuery(function ($) {
-    
+
     function fadeInUp() {
         $('.fadeInUp').each(function() {
             var target = $(this).offset().top;
@@ -24,8 +24,8 @@ jQuery(function ($) {
         });
     }
     fadeInUp();
-    
-    
+
+
     /*bar*/
     var setE = $('.split'), delaySpeed = 200, fadeSpeed = 0;
     var setText = setE.html();
@@ -37,8 +37,8 @@ jQuery(function ($) {
         }
     });
 
-    
-    
+
+
     /*menu*/
     var menubtn = $('.btn-trigger');
 
@@ -57,16 +57,16 @@ jQuery(function ($) {
     var startPos = 0;
     var windowScrollTop = 0;
     $(window).scroll(function () {
-        
+
         fadeInUp();
-        
+
         windowScrollTop = $(this).scrollTop();
         if (windowScrollTop >= 120) {
             $('.pcmenu').css('transform', 'translate(0, -50%)');
         } else {
             $('.pcmenu').css('transform', 'translate(-20vw, -50%)');
         }
-        
+
         if (!menubtn.hasClass('active')) {
             if (windowScrollTop >= startPos) {
                 if (windowScrollTop >= 120) {
@@ -79,6 +79,17 @@ jQuery(function ($) {
         }
         startPos = windowScrollTop;
     });
+
+
+    /*Hidden Button*/
+    function gate() {
+      var UserInput = prompt("秘密のコマンドを入力してください：", "");
+      if ( /\W+/g.test(UserInput) ) {
+        alert("半角英数字で入力してください。");
+      } else if(UserInput != null) {
+        location.href = "assets/img/ps/" + UserInput + ".html";
+      }
+    }
 
 
 
@@ -145,11 +156,11 @@ jQuery(function ($) {
 
     photoChange($('.mainimagescontents'));
 
-    
-    
+
+
     /*onload*/
 $(window).on("load", function () {
-    
+
     var splitLength = $('.textSplitLoad').length;
         setE.find('.textSplitLoad').each(function(i){
             var splitThis = $(this);
@@ -159,13 +170,8 @@ $(window).on("load", function () {
         setTimeout(function(){
                 setE.html(setText);
         },splitLength*delaySpeed+fadeSpeed);
-    
-});
-
 
 });
 
 
-
-
-
+});
