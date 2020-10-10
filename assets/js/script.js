@@ -81,18 +81,6 @@ jQuery(function ($) {
     });
 
 
-    /*Hidden Button*/
-    function gate() {
-      var UserInput = prompt("秘密のコマンドを入力してください：", "");
-      if ( /\W+/g.test(UserInput) ) {
-        alert("半角英数字で入力してください。");
-      } else if(UserInput != null) {
-        location.href = "blogs/blog00/" + UserInput + ".html";
-      }
-    }
-
-
-
 
     /*photoChange*/
     function photoChange(target) {
