@@ -99,6 +99,11 @@ body {
         font-style: normal;
     }
 
+    .emreport {
+      font-weight: 400;
+      font-style: normal;
+    }
+
     .emphasizesb {
         font-style: normal;
         color: steelblue;
