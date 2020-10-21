@@ -100,9 +100,7 @@
 
     .sectionimage {
         width: 100%;
-        margin-right: 20%;
-        margin-left: 20%;
-        padding: 20px;
+        padding: 20px 20% 20px 20%;
     }
 
 
