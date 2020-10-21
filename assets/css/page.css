@@ -832,7 +832,10 @@
         padding: 15px 20px 15px 10px;
     }
 
-
+    .sectionimage {
+        width: 100%;
+        padding: 20px;
+    }
 
 
 
@@ -879,6 +882,10 @@
 
 @media screen and (min-width: 451px) and (max-width: 800px) {
 
+  .sectionimage {
+      width: 100%;
+      padding: 20px 10% 20px 10%;
+  }
     .figure-left {
         display: inline-block;
         float: left;
