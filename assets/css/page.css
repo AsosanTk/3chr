@@ -216,7 +216,7 @@
     .listsection p {
         padding: 0px 0px 0px 0px;
     }
- 
+
     .phaselistsection h4 {
         padding: 0;
         width: 100%;
@@ -309,7 +309,7 @@
         width: 72px;
         height: 72px;
         border-radius: 4px;
-        
+
         background-size: cover;
         vertical-align: middle;
         margin-right: 5px;
@@ -468,7 +468,7 @@
         transition: 0.7s;
     }
 
-    
+
 
     .comingsoon {
         text-align: center;
@@ -607,7 +607,7 @@
         width: 100%;
         padding: 15px 20px 15px 20px;
     }
-    
+
     #first-blog-content {
         margin-top: 0px;
     }
@@ -768,7 +768,7 @@
         background-color: rgba(255, 255, 255, 0.5);
         color: black;
     }
-    
+
     .iconimage {
         display: none;
     }
@@ -796,8 +796,8 @@
         transition: 0.7s;
     }
 
-    
-    
+
+
     .report-figure {
         width: 100%;
     }
@@ -820,7 +820,7 @@
     .report-figure li:nth-child(even) {
         padding: 15px 20px 15px 20px;
     }
-    
+
     .figure-left {
         display: inline-block;
         float: left;
@@ -833,20 +833,20 @@
         width: 66%;
         padding: 15px 20px 15px 10px;
     }
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
     /*TOPスライドビュー*/
     .mainimagescontents {
         width: 100vw;
         height: 56.25vw;
     }
-    
-    
+
+
     #control ul {
         position: relative;
         width: 100vw;
@@ -880,7 +880,7 @@
 }
 
 @media screen and (min-width: 451px) and (max-width: 800px) {
-    
+
     .figure-left {
         display: inline-block;
         float: left;
@@ -893,19 +893,19 @@
         width: 55%;
         padding: 15px 20px 15px 10px;
     }
-    
+
     /*TOPスライドビュー*/
     .mainimagescontents {
         width: 100vw;
         height: 56.25vw;
     }
-    
+
     .sectionimage {
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
     }
-    
+
     #control ul {
         position: relative;
         width: 100vw;
@@ -936,7 +936,7 @@
     #control #next {
         padding-left: 76vw;
     }
-    
+
 }
 
 
@@ -953,19 +953,19 @@
         width: 45%;
         padding: 15px 20px 15px 10px;
     }
-    
+
     /*TOPスライドビュー*/
     .mainimagescontents {
         width: 60vw;
         height: 33.75vw;
         padding: 8px 8px 0px 8px;
     }
-    
+
     #top-photolist {
         border-radius: 8px;
         overflow: hidden;
     }
-    
+
     #control ul {
         position: relative;
         width: 100%;
