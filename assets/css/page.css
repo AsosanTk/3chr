@@ -110,7 +110,7 @@
 
     iframe {
       width: 100%;
-      height: auto;
+      height: 100%;
       padding: 20px 20% 20px 20%;
     }
 
@@ -851,7 +851,7 @@
     iframe {
       width: 100%;
       padding: 20px;
-      height: auto;;
+      height: 100%;
     }
 
 
@@ -906,7 +906,7 @@
 
   iframe {
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 20px 10% 20px 10%;
   }
 
