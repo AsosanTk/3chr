@@ -108,10 +108,11 @@
         padding: 20px 20% 20px 20%;
     }
     .youtube-link {
-      width: 100%;
+      width: 80%;
+      margin: 0px 10% 0px 10%;
       height: 0;
       position: relative;
-      padding: 45% 20% 20px 20%;
+      padding-top: 60%;
     }
     iframe {
       width: 100%;
@@ -857,9 +858,10 @@
 
     .youtube-link {
       width: 100%;
+      margin: 0;
       height: 0;
       position: relative;
-      padding: 67.5% 5% 20px 5%;
+      padding-top: 75%;
     }
     iframe {
       width: 100%;
@@ -920,10 +922,11 @@
   }
 
   .youtube-link {
-    width: 100%;
+    width: 90%;
+    margin: 0px 5% 0px 5%;
     height: 0;
     position: relative;
-    padding: 60% 10% 20px 10%;
+    padding-top: 67.5%;
   }
   iframe {
     width: 100%;
