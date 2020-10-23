@@ -59,16 +59,6 @@
     <script type="text/javascript" src="../../assets/js/font.js"></script>
 </head>
 
-
-<!--
-h2はページのタイトル
-h3はsectionのタイトル
-h4はsubsection(小見出し)
-h5はリンクや少し重要な事項
-pは本文
-imgは基本16:9
--->
-
 <body>
 
     <header>
@@ -140,19 +130,54 @@ imgは基本16:9
 
     <!--main contents-->
     <main>
-        <section class="blog" fadeInUp>
+        <section class="blog fadeInUp">
             <div class="blog-title">
                 <h3>Phase 4</h3>
-                <h3>タイトル</h3>
+                <h3>エアコンの部品の説明</h3>
             </div>
         </section>
-        <section class="whitesection fadeInUp comingsoon">
-            <h2 class="split">Coming soon...<span class="bar"></span></h2>
+        <section class="blog fadeInUp">
+              <div class="blog-content" id="first-blog-content">
+                  <p class="textline">ここからは、エアコンの部品の一部についてその仕組みを解説していきます。</p>
+              </div>
+              <div class="blog-content">
+                <span class="blogsub">(1)膨張弁</span>
+                <p class="textline">膨張弁は室外機の前にある部品で、冷媒にかかる圧力を下げることで温度を下げ、蒸発させやすくするための装置です。<br>次にその仕組みについて説明していきます。まず、<em class="emreport">蒸発しやすさは圧力が関係</em>しています。山に登った時を想像してみてください。標高が上がれば上がるほど沸点が下がるという話を聞いたことがあるでしょう。<br>これは標高の上昇によって気圧が低下することによるものです。冷媒にかかる圧力が下がる事で温度が低下し、空気との温度差が広がるので、空気と混ざり合った時に蒸発しやすくなります。</p>
+                <p class="textline">膨張弁ではこれを利用しています。高温高圧で送られてくる冷媒は狭い孔を通ることで 流入量が減るとともに、送り出されるスピードが速くなります。速度が速くなるとその部分の圧力が低くなります。結果低温になり蒸発しやすい状況ができるのです。</p>
+                <div class="figure-right">
+                    <img class="report-figure-image" src="img/image6.png" alt="">
+                    <p class="figureline">Fig.6 膨張弁の模式図</p>
+                </div>
+                <p class="textline">しかし、これだけでは弁である必要がありません。細いチューブを通せば良いのです。<br>そこで登場するのが感温筒です。<br>冷媒の流入量が多くなると温度が下がるため感温筒内の圧力が低下し、弁は閉じます。よって流入量は減り、温度も適正に戻ります。反対に流入量が少なくなるとは温度が上がるため、感温筒内の圧力が上昇し、弁が開きます。よって流入量は増え、温度も適正に戻ります。<br>これだけでは仕組みが分からないという方も多いと思います。感温筒にはガス及び液体が封入されており、これが温度の変化によって膨張・収縮することで圧力が変化します。圧力が上昇し膨張弁を押し込むと弁は開き、圧力が低下すると弁は閉じます。<br>これは、膨張弁の開閉が内部バネによって行われているからで、力がかかっていない時に閉まるようになっているからです。</p>
+
+                <div class="figure-right">
+                    <img class="report-figure-image" src="img/image7.png" alt="">
+                    <p class="figureline">Fig.7 感温筒の仕組み</p>
+                </div>
+              </div>
+
+              <div class="blog-content">
+                <span class="blogsub">(2)圧縮機</span>
+                <p class="textline">膨張弁の対になる部品で、圧力をかけることで冷媒の温度を上昇させ凝縮させやすくするための装置です。コンプレッサーとも呼ばれます。<br>凝縮とは気体から液体となる状態変化の事で、蒸発とは対になる現象です。用途に合わせて様々な形の圧縮機が存在していますが、その中で主に家庭用エアコンに使われているのは<em class="emreport">回転式</em>と呼ばれるモーターを使うタイプのスクロール圧縮機です。名前の通り内部には金属板を巻いたようなパーツがあり、それが名前の由来となっています。</p>
+                <div class="figure-left">
+                    <img class="report-figure-image" src="img/image8.png" alt="">
+                    <p class="figureline">Fig.8 回転式圧縮機の模式図</p>
+                </div>
+                <p class="textline">ではどうやって流体を圧縮しているかについて簡単に説明しましょう。</p>
+                <p class="textline">上の図の青いパーツは固定されていて緑色のパーツは動くようになっています。<br>青と緑のパーツに挟まれた黄色く塗られた部分にご注目ください。まず初めに1の状態で黄色の部分に流体が流れ込んできます。2，3，4と緑色のパーツが流体とともに移動するにしたがい、だんだんと青と緑に囲まれた黄色の部分の面積が少なくなります。そして、4では元の状態の1/10以上の面積になってしまいます。<br>このようにして圧縮された流体は中央の部分から外へ移動し、そしてまた外部から圧縮されていない流体が流れ込んでくるという仕組みになっているわけです。<br>結果として圧縮された流体が高温になって外へ移動します。</p>
+                <p class="textline">ではそもそもなぜこのような面倒な仕組みを使うのでしょうか。<br>このようなスクロール圧縮機が採用されているのは以下のような理由があります。</p>
+                <p class="textline">まず、二つ上の図を見てもわかる通りこのスクロール圧縮機はパーツが非常に少ない、言い換えれば単純な機構をしています。単純な構造なので丈夫で長持ちし小型化しやすいなどのメリットが存在します。工業用のように高出力を必要としない家電製品の圧縮機にはぴったりです。<br>また、他のタイプによりも振動が少ないことも特徴の一つとして挙げられます。これにより騒音があまり出ないほか、振動による機械の故障も防止することができます。<br>これらの理由からエアコンにはスクロール圧縮機が採用されています。</p>
+              </div>
+
+              <div class="blog-content">
+                <h4 class="blogsection">まとめ</h4>
+                <p class="textline">エアコンには膨張弁、圧縮機という部品があり、冷媒の気圧を調節することでエアコンが働くのをアシストしている。</p>
+              </div>
         </section>
-        <section class="blog" fadeInUp>
+        <section class="blog fadeInUp">
             <div class="blog-footer">
-                <p class="headline"><a class="blog-link" href="../phase3/">前のレポート：Phase 3 "" -></a></p>
-                <p class="headline"><a class="blog-link" href="../phase5/">次のレポート：Phase 5 "" -></a></p>
+                <p class="headline"><a class="blog-link" href="../phase3/">前のレポート：Phase 3 "エアコンの仕組み" -></a></p>
+                <p class="headline"><a class="blog-link" href="../phase5/">次のレポート：Phase 5 "終わりに・参考文献" -></a></p>
                 <h5 class="blogbackbutton"><a class="blog-backlink" href="../../reports/">レポート一覧に戻る</a></h5>
             </div>
         </section>
