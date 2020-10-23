@@ -110,6 +110,7 @@
 
     iframe {
       width: 100%;
+      height: auto;
       padding: 20px 20% 20px 20%;
     }
 
@@ -850,6 +851,7 @@
     iframe {
       width: 100%;
       padding: 20px;
+      height: auto;;
     }
 
 
@@ -904,6 +906,7 @@
 
   iframe {
     width: 100%;
+    height: auto;
     padding: 20px 10% 20px 10%;
   }
 
@@ -924,12 +927,6 @@
     .mainimagescontents {
         width: 100vw;
         height: 56.25vw;
-    }
-
-    .sectionimage {
-        width: 80%;
-        margin-right: 10%;
-        margin-left: 10%;
     }
 
     #control ul {
