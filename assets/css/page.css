@@ -97,10 +97,20 @@
     .transparentsection p {
         padding: 0px 20px 0px 20px;
     }
+    .whitesection small,
+    .blacksection small,
+    .transparentsection small {
+        padding: 0px 25px 0px 25px;
+    }
 
     .sectionimage {
         width: 100%;
         padding: 20px 20% 20px 20%;
+    }
+
+    iframe {
+      width: 100%;
+      padding: 20px 20% 20px 20%;
     }
 
 
@@ -837,6 +847,11 @@
         padding: 20px;
     }
 
+    iframe {
+      width: 100%;
+      padding: 20px;
+    }
+
 
 
 
@@ -886,6 +901,12 @@
       width: 100%;
       padding: 20px 10% 20px 10%;
   }
+
+  iframe {
+    width: 100%;
+    padding: 20px 10% 20px 10%;
+  }
+
     .figure-left {
         display: inline-block;
         float: left;
