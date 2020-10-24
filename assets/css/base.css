@@ -348,9 +348,9 @@ body {
 
 
     /*contents-menu*/
-    /*.havecontentsmenu {
+    .havecontentsmenu {
       margin-top: 185px; 元は65px
-    }*/
+    }
     .contents-menu {
       display: none;
       width: 100vw;
