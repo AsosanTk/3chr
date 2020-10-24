@@ -360,7 +360,8 @@ body {
       background-color: rgba(255,255,255,0.95);
     }
     .contents-menubar {
-      width: 800px;
+      /*width: 800px;*/
+      width: 100vw;
       height: 140px;
       overflow-x: scroll;
       white-space: nowrap;/*ソース中の連続する半角スペース、タブ、改行を一つの半角スペースにまとめて表示します。自動的な折り返しは行いません。*/
