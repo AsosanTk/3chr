@@ -562,12 +562,7 @@ body {
       width: 800px;
       height: 140px;
       margin: 0px auto;
-    }
-    .contents-menubar {
-      /*width: 800px;*/
-      width: 100vw;
-      height: 140px;
-      overflow-x: normal;
+      overflow-x: visible;
       white-space: nowrap;/*ソース中の連続する半角スペース、タブ、改行を一つの半角スペースにまとめて表示します。自動的な折り返しは行いません。*/
     }
 
