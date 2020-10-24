@@ -549,6 +549,7 @@ body {
     .pcmenu {
         display: none;
     }
+
 }
 
 @media screen and (min-width: 801px) {
@@ -556,6 +557,13 @@ body {
         width: 60vw;
         margin-left: 20vw;
     }
+
+    .contents-menubar {
+      width: 800px;
+      height: 140px;
+      margin: 0px auto; 
+    }
+
     .pcmenu {
         width: 12vw;
         height: 320px;
