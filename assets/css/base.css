@@ -352,7 +352,7 @@ body {
       margin-top: 0px; /*元は65px*/
     }
     .contents-menu {
-      top: 65px;
+      margin-top: 65px;
       display: none;
       width: 100vw;
       height: 160px;
