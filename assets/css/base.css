@@ -348,11 +348,11 @@ body {
 
 
     /*contents-menu*/
-    .havecontentsmenu {
-      margin-top: 185px; /*元は65px*/
-    }
+    /*.havecontentsmenu {
+      margin-top: 185px; 元は65px
+    }*/
     .contents-menu {
-      display: block;
+      opacity: 0;
       width: 100vw;
       height: 160px;
       padding: 10px 0px 10px 0px;
