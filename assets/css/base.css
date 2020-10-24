@@ -359,7 +359,6 @@ body {
       background-color: rgba(255,255,255,0.95);
     }
     .contents-menubar {
-      width: 800px;
       height: 140px;
       overflow-x: scroll;
       -ms-overflow-style: none; /* IE, Edge*/
