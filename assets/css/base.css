@@ -349,9 +349,10 @@ body {
 
     /*contents-menu*/
     .havecontentsmenu {
-      margin-top: 185px; 元は65px
+      margin-top: 205px; /*元は65px*/
     }
     .contents-menu {
+      top: 65px;
       display: none;
       width: 100vw;
       height: 160px;
