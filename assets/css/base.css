@@ -380,6 +380,7 @@ body {
     }
     .contents-menubar-item:hover .contents-menubar-item-name {
       color: blue;
+      transition: 0.8s;
     }
 
 
