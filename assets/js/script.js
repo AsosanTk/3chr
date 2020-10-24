@@ -7,6 +7,8 @@ $(window).on("load", function() {
         $(".loading").fadeOut(500);
         $(".loading-tag").fadeOut(500);
     }
+
+    $('.contents-menu').css('transform', 'translateY(0)')
 });
 
 
