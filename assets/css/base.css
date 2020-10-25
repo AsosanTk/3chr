@@ -358,7 +358,6 @@ body {
       height: 160px;
       padding: 10px 0px 10px 0px;
       background-color: rgba(255,255,255,0.95);
-      transform: translateY(-140px);
       transition: 1s;
     }
     .contents-link {
@@ -378,6 +377,8 @@ body {
       -ms-overflow-style: none; /* IE, Edge*/
       scrollbar-width: none; /* Firefox*/
       font-size: 0px;/*inlineblockの横幅を消す*/
+      transform: translateY(100px);
+      transition: 0.8s;
     }
     .contents-menubar::-webkit-scrollbar {
         display: none; /* Chrome, Safari*/
@@ -407,10 +408,10 @@ body {
 
     .contents-menubar-item-name {
       width: 80px;
-      height: 30px;
+      height: 25px;
       text-align: center;
       font-size: 12.5px;
-      line-height: 15px;
+      line-height: 12.5px;
       font-family: source-han-sans-cjk-ja, sans-serif;
       font-weight: 200;
       font-style: normal;
@@ -419,8 +420,8 @@ body {
       width: 80px;
       height: 10px;
       text-align: center;
-      font-size: 7px;
-      line-height: 10px;
+      font-size: 10px;
+      line-height: 15px;
       font-family: source-han-sans-cjk-ja, sans-serif;
       font-weight: 200;
       font-style: normal;
@@ -573,6 +574,8 @@ body {
       margin: 0px auto;
       overflow-x: visible;
       white-space: nowrap;/*ソース中の連続する半角スペース、タブ、改行を一つの半角スペースにまとめて表示します。自動的な折り返しは行いません。*/
+      transform: translateX(200px);
+      transition: 0.8s;
     }
 
     .pcmenu {

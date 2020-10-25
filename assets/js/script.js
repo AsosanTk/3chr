@@ -8,7 +8,8 @@ $(window).on("load", function() {
         $(".loading-tag").fadeOut(500);
     }
 
-    $('.contents-menu').css('transform', 'translateY(0)')
+    /*$('.contents-menu').css('transform', 'translateY(0)');*/
+    $('.contents-menubar').css('transform', 'translateX(0)');
 });
 
 
