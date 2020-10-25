@@ -37,9 +37,6 @@ jQuery(function ($) {
       $("html, body").animate({scrollTop: position}, 1000, 'swing');
       return false; /*URLに#以降文字列を出さない*/
     });
-    $('.contents-menubar').on('touchmove.noScroll', function(e) {
-    e.preventDefault();
-    });
 
 
     /*bar*/

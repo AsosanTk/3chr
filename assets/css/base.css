@@ -373,6 +373,7 @@ body {
       width: 100vw;
       height: 140px;
       overflow-x: scroll;
+      overflow-y: hidden;
       white-space: nowrap;/*ソース中の連続する半角スペース、タブ、改行を一つの半角スペースにまとめて表示します。自動的な折り返しは行いません。*/
       -ms-overflow-style: none; /* IE, Edge*/
       scrollbar-width: none; /* Firefox*/
@@ -576,6 +577,7 @@ body {
       height: 140px;
       margin: 0px auto;
       overflow-x: visible;
+      overflow-y: hidden;
       white-space: nowrap;/*ソース中の連続する半角スペース、タブ、改行を一つの半角スペースにまとめて表示します。自動的な折り返しは行いません。*/
       transform: translateX(200px);
       transition: 0.8s;
