@@ -361,6 +361,12 @@ body {
       transform: translateY(-140px);
       transition: 1s;
     }
+    .contents-link {
+      text-decoration: none;
+      width: 100px;
+      height: 140px;
+      margin: 0;
+    }
     .contents-menubar {
       /*width: 800px;*/
       width: 100vw;
