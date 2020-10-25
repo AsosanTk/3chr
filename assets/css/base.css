@@ -376,6 +376,8 @@ body {
       white-space: nowrap;/*ソース中の連続する半角スペース、タブ、改行を一つの半角スペースにまとめて表示します。自動的な折り返しは行いません。*/
       -ms-overflow-style: none; /* IE, Edge*/
       scrollbar-width: none; /* Firefox*/
+      overflow-scrolling: touch;  /* スクロールを滑らかにする */
+      -webkit-overflow-scrolling: touch;  /* スクロールを滑らかにする */
       font-size: 0px;/*inlineblockの横幅を消す*/
       transform: translateY(100px);
       transition: 0.8s;
