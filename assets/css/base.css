@@ -353,7 +353,7 @@ body {
     }
     .contents-menu {
       margin-top: 65px;
-      display: none;
+      /*display: none;*/
       width: 100vw;
       height: 160px;
       padding: 10px 0px 10px 0px;
