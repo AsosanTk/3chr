@@ -168,16 +168,12 @@
         width: 100%;
         /*ひとまず画像が入るまでは*/
         /*display: none;*/
+        opacity: 0;
     }
 
     .iconimage:hover {
         opacity: 0.85;
         transition: 1s;
-    }
-
-    .whitesquare div, .blacksquare div {
-        width: 100%;
-        height: 1px;
     }
 
     .whitesquare {
