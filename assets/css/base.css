@@ -362,11 +362,13 @@ body {
       transition: 1s;
     }
     .contents-link {
+      display: inline-block;
       text-decoration: none;
       width: 100px;
       height: 140px;
       margin: 0;
       color: black;
+      font-size: 0px;
     }
     .contents-menubar {
       /*width: 800px;*/
