@@ -463,25 +463,29 @@
     /*link-hover*/
     .linktextw {
         text-decoration: none;
-        border-bottom: 2px groove;
-        color: white;
+        color: #0070c9;
+        border-bottom: 1.5px groove;
+        /*color: white;*/
         border-bottom-color: transparent;
     }
 
     .linktextw:hover {
-        border-bottom-color: mediumblue;
+        border-bottom-color: #0077ED;
+        color: #0077ED;
         transition: 0.7s;
     }
 
     .linktextb {
         text-decoration: none;
-        border-bottom: 2px groove;
+        color: #2997ff;
+        border-bottom: 1.5px groove;
         border-bottom-color: transparent;
-        color: black;
+        /*color: black;*/
     }
 
     .linktextb:hover {
-        border-bottom-color: mediumblue;
+        border-bottom-color: #0077ED;
+        color: #0077ED;
         transition: 0.7s;
     }
 

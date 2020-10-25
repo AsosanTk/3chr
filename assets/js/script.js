@@ -32,11 +32,11 @@ jQuery(function ($) {
     smoothlink.click(function() {
       var href = $(this).attr("href");
       var target = $ (href == "#" || href == ""? 'html' : href);
-      var position = target.offset().top;
+      var position = target.offset().top - 8;
       $("html, body").animate({scrollTop: position}, 1000, 'swing');
       return false; /*URLに#以降文字列を出さない*/
     });
-    
+
 
     /*bar*/
     var setE = $('.split'), delaySpeed = 200, fadeSpeed = 0;
