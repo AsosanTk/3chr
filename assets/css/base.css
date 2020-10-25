@@ -402,7 +402,7 @@ body {
     .contents-menubar-item-icon {
       width: 60px;
       height: 60px;
-      margin: 0px auto;
+      margin: 0px 10px;
     }
     .contents-menubar-item-scrolltop {
       width: 80px;
