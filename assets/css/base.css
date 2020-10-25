@@ -400,8 +400,9 @@ body {
 
 
     .contents-menubar-item-icon {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
+      margin: 0px auto;
     }
     .contents-menubar-item-scrolltop {
       width: 80px;
