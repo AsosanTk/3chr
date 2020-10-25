@@ -368,7 +368,6 @@ body {
       height: 140px;
       margin: 0;
       color: black;
-      font-size: 0px;
     }
     .contents-menubar {
       /*width: 800px;*/
@@ -378,6 +377,7 @@ body {
       white-space: nowrap;/*ソース中の連続する半角スペース、タブ、改行を一つの半角スペースにまとめて表示します。自動的な折り返しは行いません。*/
       -ms-overflow-style: none; /* IE, Edge*/
       scrollbar-width: none; /* Firefox*/
+      font-size: 0px;/*inlineblockの横幅を消す*/
     }
     .contents-menubar::-webkit-scrollbar {
         display: none; /* Chrome, Safari*/
@@ -388,7 +388,7 @@ body {
       height: 140px;
       padding: 10px 10px 10px 10px;
       display: inline-block;
-
+      font-size: 0px;
     }
     .contents-menubar-item:hover .contents-menubar-item-name {
       color: blue;
