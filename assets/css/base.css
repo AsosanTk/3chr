@@ -379,7 +379,7 @@ body {
       overflow-scrolling: touch;  /* スクロールを滑らかにする */
       -webkit-overflow-scrolling: touch;  /* スクロールを滑らかにする */
       font-size: 0px;/*inlineblockの横幅を消す*/
-      transform: translateY(100px);
+      transform: translateX(100px);
       transition: 0.8s;
     }
     .contents-menubar::-webkit-scrollbar {
