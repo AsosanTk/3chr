@@ -463,7 +463,7 @@
     /*link-hover*/
     .linktextw {
         text-decoration: none;
-        color: #0070c9;
+        color: #2997ff;
         border-bottom: 1.5px groove;
         /*color: white;*/
         border-bottom-color: transparent;
@@ -477,7 +477,7 @@
 
     .linktextb {
         text-decoration: none;
-        color: #2997ff;
+        color: #0070c9;
         border-bottom: 1.5px groove;
         border-bottom-color: transparent;
         /*color: black;*/
