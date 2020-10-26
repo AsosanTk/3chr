@@ -17,17 +17,17 @@
     <meta name="author" content="Asosan, 3CHR Div." />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
-    <title>Information | 北風と太陽神</title>
+    <title>Online Contents | 北風と太陽神</title>
     <meta name="description" content="ようこそ！筑駒3CHR文化祭デコ~北風と太陽神~の公式サイトです。エアコンの仕組み、自作エアコンの製作風景、スペシャルムービー等を紹介しています。" />
     <!--検索結果設定-->
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, follow" />
     <meta name="keywords" content="3CHR, 文化祭, 筑駒, 北風と太陽神, エアコン, 男子校, 筑波大学附属駒場中学校, 筑波大学付属駒場中学校, 彩雲, 第69回, 駒場, 筑波, 高校, 中学, 中学校, 高等学校, つくこま, ぶんかさい" />
     <!--SNSの設定-->
     <meta property="og:site_name" content="3CHR公式サイト" />
     <!--代入-->
-    <meta property="og:url" content="https://kitakaze.3chr.info/info/" />
-    <link rel="canonical" href="https://kitakaze.3chr.info/info/" />
-    <meta property="og:title" content="Information | 北風と太陽神" />
+    <meta property="og:url" content="https://kitakaze.3chr.info/contents/" />
+    <link rel="canonical" href="https://kitakaze.3chr.info/contents/" />
+    <meta property="og:title" content="Online Contents | 北風と太陽神" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="ようこそ！筑駒3CHR文化祭デコ~北風と太陽神~の公式サイトです。エアコンの仕組み、自作エアコンの製作風景、スペシャルムービー等を紹介しています。" />
     <meta property="og:image" content="../assets/img/topimage1.jpeg" />
@@ -85,7 +85,7 @@ imgは基本16:9
             </li>
         </ul>
         <div class="titlebar">
-            <h2>Information</h2>
+            <h2>Online Contents</h2>
         </div>
     </header>
 
@@ -95,9 +95,9 @@ imgは基本16:9
         <ul class="mainmenu">
             <li class="menu-item"><a href="../">Home</a></li>
             <li class="menu-item"><a href="../about/">Theme</a></li>
-            <li class="menu-item"><a href="../contents/">Online Contents</a></li>
+            <li class="menu-item" id="thispage"><a href="../contents/">Online Contents</a></li>
             <li class="menu-item"><a href="../blogs/">Blogs</a></li>
-            <li class="menu-item" id="thispage"><a href="../info/">Information</a></li>
+            <li class="menu-item"><a href="../info/">Information</a></li>
             <li class="menu-item"><a href="../download/">Download</a></li>
             <li class="menu-item"><a href="https://bunkasai.info/">Tsukukoma Official</a></li>
         </ul>
@@ -109,9 +109,9 @@ imgは基本16:9
         <ul class="mainmenu-pc">
             <li class="menu-pcitem"><a href="../">Home</a></li>
             <li class="menu-pcitem"><a href="../about/">Theme</a></li>
-            <li class="menu-pcitem"><a href="../contents/">Online Contents</a></li>
+            <li class="menu-pcitem" id="thispage-pc"><a href="../contents/">Online Contents</a></li>
             <li class="menu-pcitem"><a href="../blogs/">Blogs</a></li>
-            <li class="menu-pcitem" id="thispage-pc"><a href="../info/">Information</a></li>
+            <li class="menu-pcitem"><a href="../info/">Information</a></li>
             <li class="menu-pcitem"><a href="../download/">Download</a></li>
             <li class="menu-pcitem"><a href="https://bunkasai.info/">Tsukukoma O.</a></li>
         </ul>
@@ -139,24 +139,117 @@ imgは基本16:9
 
 
 
+    <!--contents-menu-->
+    <div class="contents-menu">
+      <div class="contents-menubar">
+          <div class="contents-menubar-item">
+            <div class="contents-menubar-item">
+              <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-contents.png" alt=""/>
+              <!--<img class="contents-menubar-item-scrolltop" src="../assets/img/icon/menu-scroll.png" alt=""/>-->
+              <p class="contents-menubar-item-name" id="this-content">Scroll</p>
+              <p class="contents-menubar-item-date" id="released">------->></p>
+            </div>
+          </div>
+          <a class="contents-link" href="#infomenu-map">
+            <div class="contents-menubar-item">
+              <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-cs.png" alt=""/>
+              <p class="contents-menubar-item-name" id="this-content">Contents Map</p>
+              <p class="contents-menubar-item-date" id="no-release">10/30公開</p>
+            </div>
+          </a>
+        <a class="contents-link" href="#infomenu-pv">
+          <div class="contents-menubar-item" id="infomenu-contents">
+            <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-pv.png" alt=""/>
+            <p class="contents-menubar-item-name" id="this-content">PV</p>
+            <p class="contents-menubar-item-date" id="new-release">10/23公開済み</p>
+          </div>
+        </a>
+        <a class="contents-link" href="#infomenu-mv">
+          <div class="contents-menubar-item">
+            <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-mv.png" alt=""/>
+            <p class="contents-menubar-item-name" id="this-content">Special Movie</p>
+            <p class="contents-menubar-item-date" id="no-release">10/30公開</p>
+          </div>
+        </a>
+        <a class="contents-link" href="./reports/">
+          <div class="contents-menubar-item">
+            <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-report.png" alt=""/>
+            <p class="contents-menubar-item-name">Main Reports</p>
+            <p class="contents-menubar-item-date" id="no-release">10/30公開</p>
+          </div>
+        </a>
+        <a class="contents-link" href="./model/">
+          <div class="contents-menubar-item">
+            <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-model.png" alt=""/>
+            <p class="contents-menubar-item-name">展示模型</p>
+            <p class="contents-menubar-item-date" id="no-release">10/30公開</p>
+          </div>
+        </a>
+        <a class="contents-link" href="./partsmodel/">
+          <div class="contents-menubar-item">
+            <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-modelsub.png" alt=""/>
+            <p class="contents-menubar-item-name">部品模型</p>
+            <p class="contents-menubar-item-date" id="no-release">10/30公開</p>
+          </div>
+        </a>
+        <a class="contents-link" href="#infomenu-sns">
+          <div class="contents-menubar-item">
+            <img class="contents-menubar-item-icon" src="../assets/img/icon/infomenu-sns.png" alt=""/>
+            <p class="contents-menubar-item-name">SNS Link</p>
+            <p class="contents-menubar-item-date" id="released">10/23更新</p>
+          </div>
+        </a>
+
+    </div>
+    </div>
+
 
     <!--main contents-->
-    <main>
+    <main class="havecontentsmenu">
 
-
-        <section class="whitesection fadeInUp">
-            <h3 class="borderline">ご来場の際の注意点（外部向け）</h3>
-            <h5>・<em class="emphasizew">今年度は一般の方がご来場いただくことはできません。</em></h5>
-            <h5>・<a class="linktextb" href="../contents/">Online Contentsページ</a><em class="emphasizew">にてオンラインコンテンツを公開します。</em></h5>
-            <h5>・<a class="linktextb" href="https://tsukukoma.bunkasai.info">文化祭公式ホームページ</a>をよくご覧ください。</h5>
+        <section class="whitesection fadeInUp" id="infomenu-pv">
+            <h3 class="borderline">Promotion Video</h3>
+            <div class="space20"></div>
+            <div class="youtube-link">
+            <iframe src="https://www.youtube.com/embed/gIbEIQmXK3s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="space20"></div>
+            <!--<img class="sectionimage" src="../assets/img/comingsoonmovie.png" alt=""/>-->
+            <h5 style="text-align: center;">10/23 15:30公開</h5>
         </section>
 
-        <section class="blacksection fadeInUp">
-            <h3 class="borderline">ご来場の際の注意点（内部向け）</h3>
-            <h5>・マスクを着用してください。</h5>
-            <h5>・当デコでは常時換気を行っています。空気は2~3分おきに入れ替わるのでご安心ください。</h5>
-            <h5>・2mの間隔を確保するため、入場制限を実施します。係員の指示に従い、他のお客様のご迷惑にならないよう適切な行動をとってください。</h5>
+        <section class="blacksection fadeInUp" id="infomenu-mv">
+            <h3 class="borderline">3CHR Special Movie</h3>
+            <h3 style="text-align: center;">10/30公開</h3>
+            <img class="sectionimage" src="../assets/img/comingsoonmovie.png" alt=""/>
+            <!--<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OrzMIhLpVps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
         </section>
+
+        <!--<section class="whitesection fadeInUp" id="infomenu-reports">
+            <h3 class="borderline">Reports</h3>
+            <h3 style="text-align: center;">10/30公開</h3>
+            <h5>レポートは下記のリンクよりご覧いただけます。</h5>
+            <h4>レポート本体: <a class="linktextb" href="../reports/">"Reports"ページを開く ></a></h4>
+            <h4>ダウンロード: <a class="linktextb" href="../download/">"Download"ページを開く ></a></h4>
+        </section>
+
+        <section class="blacksection fadeInUp" id="infomenu-model">
+            <h3 class="borderline">本展示模型解説</h3>
+            <h3 style="text-align: center;">10/30公開</h3>
+        </section>
+
+        <section class="whitesection fadeInUp" id="infomenu-modelsub">
+            <h3 class="borderline">部品模型解説</h3>
+            <h3 style="text-align: center;">10/30公開</h3>
+        </section>-->
+
+        <section class="blacksection fadeInUp" id="infomenu-sns">
+            <h3 class="borderline">各種SNSリンク</h3>
+            <h5>SNSのリンクや、文化祭実行委員会で管理されている各種コンテンツのリンクを以下に掲載します。</h5>
+            <h4><a class="linktextw" href="https://www.twitter.com/tk3chr_2020/">Twitter: @tk3chr_2020</a></h4>
+            <h4><a class="linktextw" href="https://youtube.com/channel/UCkLrHpvQy1pknq6XjicqL_A">YouTube: 3CHR Deco.</a></h4>
+        </section>
+
         <!--<section class="whitesection fadeInUp">
            <h2>Hello こんにちは</h2>
             <h3 class="borderline">Hello こんにちは</h3>
