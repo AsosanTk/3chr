@@ -387,6 +387,10 @@ body {
         display: none; /* Chrome, Safari*/
     }
 
+    #contents-map {
+        width: 98px;
+        border-right: 1px solid black;
+    }
     .contents-menubar-item {
       width: 100px;
       height: 140px;
