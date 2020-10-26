@@ -57,7 +57,16 @@
     <script src="//code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
     <script type="text/javascript" src="assets/js/font.js"></script>
-
+    
+    <!--WebApp-->
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if('serviceWorker' in navigator){
+	        navigator.serviceWorker.register('./serviceworker.js').then(function(){
+		        console.log("Service Worker Registered");
+	        });
+        }
+    </script>
 </head>
 
 
