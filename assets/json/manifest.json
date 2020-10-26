@@ -1,8 +1,8 @@
 {
-    "name" : "北風と太陽神~2020年度筑駒3CHR~",
+    "name" : "北風と太陽神~2020筑駒文化祭3CHR公式 Web App~",
     "short_name" : "3CHR Deco.",
     "description" : "ようこそ！筑駒3CHR文化祭デコ~北風と太陽神~のWebAppです。エアコンの仕組み、自作エアコンの製作風景、スペシャルムービー等を公開しています。",
-    "start_url" : "./",
+    "start_url" : "../../",
     "display" : "standalone",
     "orientation" : "portrait",
     "background_color" : "#4682b4",
