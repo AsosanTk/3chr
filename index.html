@@ -8,10 +8,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179540664-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-179540664-1');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-179540664-1');
+
     </script>
     <meta name="language" content="Japanese" />
     <meta name="author" content="Asosan, 3CHR Div." />
@@ -57,14 +61,14 @@
     <script src="//code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
     <script type="text/javascript" src="assets/js/font.js"></script>
-    
+
     <!--WebApp-->
     <link rel="manifest" href="./assets/json/manifest.json">
     <script>
-        if('serviceWorker' in navigator){
-	        navigator.serviceWorker.register('./serviceworker.js').then(function(){
-		        console.log("Service Worker Registered");
-	        });
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./serviceworker.js').then(function() {
+                console.log("Service Worker Registered");
+            });
         }
     </script>
 </head>
@@ -134,16 +138,16 @@ imgは基本16:9
 
     <!--Loading-animation-->
     <div class="loading">
-       <div class="loading-tag">
-        <div class="loading-box">
-            <div class="loading-box-item"></div>
-            <div class="loading-box-item"></div>
-            <div class="loading-box-item"></div>
-            <div class="loading-box-item"></div>
-            <div class="loading-box-item"></div>
-            <div class="loading-ball"></div>
-        </div>
-        <h2 class="loading-name">Now Loading...</h2>
+        <div class="loading-tag">
+            <div class="loading-box">
+                <div class="loading-box-item"></div>
+                <div class="loading-box-item"></div>
+                <div class="loading-box-item"></div>
+                <div class="loading-box-item"></div>
+                <div class="loading-box-item"></div>
+                <div class="loading-ball"></div>
+            </div>
+            <h2 class="loading-name">Now Loading...</h2>
         </div>
     </div>
 
@@ -172,30 +176,30 @@ imgは基本16:9
         </section>
 
         <section class="blacksection fadeInUp">
-          <h4>3CHRでは夏のおうち生活に必須である<em class="emphasizeb">"エアコン"</em>をテーマとし、自作模型をはじめとする様々なコンテンツを公開していきます。</h4>
+            <h4>3CHRでは夏のおうち生活に必須である<em class="emphasizeb">"エアコン"</em>をテーマとし、自作模型をはじめとする様々なコンテンツを公開していきます。</h4>
         </section>
 
         <section class="whitesection fadeInUp">
             <h3 class="centerline" style="color: darkorange;">！各種コンテンツ公開について！</h3>
-            <h5>オンラインコンテンツは10/30に<a class="linktextb" href="contents/">Online Contents</a>ページにて公開します。</h5>
+            <h4>オンラインコンテンツは10/30に<a class="linktextb" href="contents/">Online Contents</a>ページにて公開します。</h4>
         </section>
 
         <section class="blacksection fadeInUp">
             <h3 class="centerline">News</h3>
             <div class="space20"></div>
             <ul class="listsection">
-             <li>
-                  <div class="newsitem">
-                      <p class="textline"><em class="emphasizew">New!</em> 2020/10/26</p>
-                      <p class="headline">文化祭前最後の大型修正を行いました（サイトの階層変更を行っています）。</p>
-                  </div>
-              </li>
-              <li>
-                  <div class="newsitem">
-                      <p class="textline"><em class="emphasizew">New!</em> 2020/10/23</p>
-                      <p class="headline">PVを公開しました（YouTube公式アカウントもすでに公開しています）。</p>
-                  </div>
-              </li>
+                <li>
+                    <div class="newsitem">
+                        <p class="textline"><em class="emphasizew">New!</em> 2020/10/26</p>
+                        <p class="headline">文化祭前最後の大型修正を行いました（サイトの階層変更を行っています）。</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="newsitem">
+                        <p class="textline"><em class="emphasizew">New!</em> 2020/10/23</p>
+                        <p class="headline">PVを公開しました（YouTube公式アカウントもすでに公開しています）。</p>
+                    </div>
+                </li>
                 <li>
                     <div class="newsitem">
                         <p class="textline">2020/10/17</p>
@@ -316,17 +320,21 @@ imgは基本16:9
     </main>
 
     <footer>
-            <h4 class="footer-name">3CHR DECO.</h4>
-               <div class="footer-iconview">
-                <ul class="footer-icons">
-                    <li class="footer-icon" id="foottwilogo">
-                        <a class="nodecoration" href="//twitter.com/tk3chr_2020"><div></div></a>
-                    </li>
-                </ul>
-            </div>
-            <small class="footer-Copyright">Copyright &copy; 2020 3CHR div.  All rights reserved.</small>
-            <small class="footer-Copyright"><a class="nodecoration" style="color: white;" href="./sitemap/">サイトマップ</a></small>
-            <a href="./"><img class="footer-logo" src="assets/img/logo/footer_logo.png" alt=""></a>
-        </footer>
+        <h4 class="footer-name">3CHR DECO.</h4>
+        <div class="footer-iconview">
+            <ul class="footer-icons">
+                <li class="footer-icon" id="foottwilogo">
+                    <a class="nodecoration" href="//twitter.com/tk3chr_2020">
+                        <div></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <small class="footer-Copyright">Copyright &copy; 2020 3CHR div. All rights reserved.</small>
+        <small class="footer-Copyright"><a class="nodecoration" style="color: white;" href="./sitemap/">サイトマップ</a></small>
+        <a href="./"><img class="footer-logo" src="assets/img/logo/footer_logo.png" alt=""></a>
+    </footer>
 
-</body></html>
+</body>
+
+</html>
