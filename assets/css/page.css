@@ -752,6 +752,7 @@
         background: url(../img/3chrmap.png);
         background-size: cover;
         z-index: 9;
+        position: relative;
     }
     .map3chrmap {
         width: 100%;
@@ -775,19 +776,19 @@
         position: absolute;
     }
     #map3chr-report {
-        transform: translate(350%, 400%);
+        transform: translate(396%, 443%);
     }
     #map3chr-model {
-        transform: translate(30%, 300%);
+        transform: translate(24%, 334%);
     }
     #map3chr-partsmodel {
-        transform: translate(30%, 560%);
+        transform: translate(24%, 614%);
     }
     #map3chr-mac {
-        transform: translate(30%, 850%);
+        transform: translate(24%, 916%);
     }
     #map3chr-mv {
-        transform: translate(185%, 1170%);
+        transform: translate(189%, 1267%);
     }
 
 
