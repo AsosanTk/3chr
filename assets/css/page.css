@@ -759,6 +759,8 @@
         z-index: 10;
         position: absolute;
         height: 0;
+        top: 0;
+        left: 0;
         padding-bottom: 75%;
     }
     .map3chr-part {
