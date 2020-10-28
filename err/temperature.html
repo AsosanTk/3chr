@@ -21,6 +21,7 @@
             margin: 0;
             padding: 0;
         }
+
         body {
             background-color: steelblue;
             width: 100vw;
@@ -32,6 +33,7 @@
             height: 100vh;
             padding: 20vh 0;
         }
+
         .temperature {
             width: 80vw;
             height: 60vh;
@@ -60,14 +62,13 @@
     <script type="text/javascript">
         jQuery(function($) {
             var divtp = $(".temperature");
-            $(window).on('load', function() {
-                var time = Math.random(9) * 1000;
-                var tp = Math.random(10) + 20;
-                var i = 0;
-                while (i=1) {
-                    divtp.sleep(time).text(tp);
-                }
-            });
+            function randomtp() {
+                var tp = 15 + Math.floor(Math.random() * 10)*0.5;
+                var stp = String(tp);
+                divtp.text(stp);
+                setInterval(randomtp, 10000);
+            }
+            randomtp();
         });
 
     </script>
@@ -75,7 +76,7 @@
 
 <body>
     <div class="tp-content">
-        <div class="temperature">20</div>
+        <p class="temperature">20</p>
         <div class="cname">℃</div>
     </div>
 </body>
