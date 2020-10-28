@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="ja" />
+<meta charset="utf-8" />
+
+<head>
+    <meta name="language" content="Japanese" />
+    <meta name="author" content="Asosan, 3CHR Div." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    <title>気温 | 3CHR公式</title>
+    <!--検索結果設定-->
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="https://kitakaze.3chr.info/err/temperature.html" />
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel="style" type="text/css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.4.1.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: steelblue;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .tp-content {
+            width: 100vw;
+            height: 100vh;
+            padding: 20vh 0;
+        }
+        .temperature {
+            width: 80vw;
+            height: 60vh;
+            display: table-cell;
+            text-align: center;
+            color: white;
+            font-size: 30vw;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .cname {
+            width: 20vw;
+            height: 60vh;
+            display: table-cell;
+            text-align: center;
+            font-size: 10vw;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+
+    </style>
+    <script type="text/javascript">
+        jQuery(function($) {
+            var divtp = $(".temperature");
+            $(window).on('load', function() {
+                var time = Math.random(9) * 1000;
+                var tp = Math.random(10) + 20;
+                var i = 0;
+                while (i=1) {
+                    divtp.sleep(time).text(tp);
+                }
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="tp-content">
+        <div class="temperature">20</div>
+        <div class="cname">℃</div>
+    </div>
+</body>
