@@ -62,11 +62,24 @@
     <script type="text/javascript">
         jQuery(function($) {
             var divtp = $(".temperature");
+            var tp = 16;
             function randomtp() {
-                var tp = 15 + Math.floor(Math.random() * 10)*0.5;
+                if (tp > 20) {
+                    tp = 19.5;
+                } else if (tp < 13) {
+                    tp = 13.5;
+                } else {
+                    var ty = Math.floor(Math.random() * 2);
+                    if (ty == 0) {
+                        tp += 0.5;
+                    } else {
+                        tp -= 0.5;
+                    }
+                }
+                /*tp = 15 + Math.floor(Math.random() * 10)*0.5;*/
                 var stp = String(tp);
                 divtp.text(stp);
-                setInterval(randomtp, 10000);
+                setTimeout(randomtp, 30000);
             }
             randomtp();
         });
