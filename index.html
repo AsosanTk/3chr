@@ -66,10 +66,13 @@
     <link rel="manifest" href="./assets/json/manifest.json">
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./serviceworker.js').then(function() {
-                console.log("Service Worker Registered");
+            navigator.serviceWorker.register('./serviceworker.js').then(registration => {
+                console.log('ServiceWorker registration successful.');
+            }).catch(err => {
+                console.log('ServiceWorker registration failed.');
             });
         }
+
     </script>
 </head>
 
