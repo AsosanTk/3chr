@@ -844,7 +844,7 @@
     .iconimage {
         display: none;
     }
-    .blackwhitesection .linktextw {
+    /*.blackwhitesection .linktextw {
         text-decoration: none;
         border-bottom: 2px groove;
         color: black;
@@ -866,7 +866,7 @@
     .blackwhitesection .linktextb:hover {
         border-bottom-color: mediumblue;
         transition: 0.7s;
-    }
+    }*/
 
 
 
