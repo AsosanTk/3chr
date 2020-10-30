@@ -33,7 +33,7 @@ jQuery(function ($) {
     function CountDays() {
         var starttime = new Date("October 30, 2020 09:30:00");
         var nowtime = new Date();
-        var counttime = starttime.getTime() - nowtime.getTime();
+        var counttime = nowtime.getTime() - starttime.getTime();
         var d = Math.floor(counttime/86400000);
         counttime -= d*86400000;
         var h = Math.floor(counttime/3600000);
