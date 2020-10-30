@@ -13,7 +13,7 @@ var urlsToCache = [
     "contents/model/index.html",
     "contents/partsmodel/index.html",
     "contents/reports/index.html",
-    "contents/reports/phase0/index.html",
+    "/contents/reports/phase0/index.html",
     "contents/reports/phase1/index.html",
     "contents/reports/phase2/index.html",
     "contents/reports/phase3/index.html",
@@ -28,7 +28,7 @@ var urlsToCache = [
     "contents/reports/phase4/img/image7.png",
     "contents/reports/phase4/img/image8.png",
     "blogs/index.html",
-    "blogs/blog1/index.html",
+    /*"blogs/blog1/index.html",
     "blogs/blog2/index.html",
     "blogs/blog3/index.html",
     "blogs/blog4/index.html",
@@ -44,7 +44,7 @@ var urlsToCache = [
     "blogs/blog4/img/image7.jpeg",
     "blogs/blog4/img/image8.png",
     "blogs/blog5/img/image1.jpg",
-    "blogs/blog5/img/image2.jpg",
+    "blogs/blog5/img/image2.jpg",*/
     "assets/css/base.css",
     "assets/css/page.css",
     "assets/json/manifest.json",
@@ -106,12 +106,12 @@ var urlsToCache = [
     "https://fonts.googleapis.com/css?family=Lobster",
     "//code.jquery.com/jquery-3.4.1.min.js",
     "//code.jquery.com/jquery-3.4.1.js",
-    "https://use.typekit.net/mby4ewi.js"
+    /*"https://use.typekit.net/mby4ewi.js"*/
 ];
 
 // 残したいキャッシュのバージョンをこの配列に入れる
 // 基本的に現行の1つだけでよい。他は削除される。
-const CACHE_KEYS = [
+var CACHE_KEYS = [
   CACHE_NAME
 ];
 
@@ -127,7 +127,7 @@ self.addEventListener('install', function(event) {
 });
 
 //新しいバージョンのServiceWorkerが有効化されたとき
-self.addEventListener('activate', event => {
+self.addEventListener('activate', function(event) {
   event.waitUntil(
     caches.keys().then(keys => {
       return Promise.all(
