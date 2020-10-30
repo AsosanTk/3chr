@@ -10,6 +10,9 @@ $(window).on("load", function() {
 
     /*$('.contents-menu').css('transform', 'translateY(0)');*/
     $('.contents-menubar').css('transform', 'translateX(0)');
+    
+    var countvisitor = localStorage.getItem('visitor');
+    $("#visitors-day2").text("今日の来場者" + countvisitor + "人");
 });
 
 
@@ -52,6 +55,19 @@ jQuery(function ($) {
         setInterval(CountDays, 1000);
     }
     CountDays();
+    
+    
+    
+    /*visitors-count*/
+    function VisitorsCount() {
+        var counter = localStorage.getItem('visitor');
+        count++;
+        localStorage.setItem('visitor', counter);
+    }
+    function VisitorsRC() {
+        localStorage.removeItem('visitor');
+        localStorage.setItem('visitor', 0);
+    }
     
     
 
