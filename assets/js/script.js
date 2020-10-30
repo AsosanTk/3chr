@@ -12,7 +12,10 @@ $(window).on("load", function() {
     $('.contents-menubar').css('transform', 'translateX(0)');
     
     var countvisitor = localStorage.getItem('visitor');
-    $("#visitors-day2").text("今日の来場者" + countvisitor + "人");
+    if (countvisitor != null) {
+        $("#visitors-day2").text("今日の来場者： " + countvisitor + "人");
+    }
+    
 });
 
 
