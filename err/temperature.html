@@ -63,23 +63,36 @@
         jQuery(function($) {
             var divtp = $(".temperature");
             var tp = 15;
-            function randomtp() {
-                if (tp == 17) {
-                    tp = 16.5;
-                } else if (tp == 13) {
-                    tp = 13.5;
-                } else {
-                    var ty = Math.floor(Math.random() * 2);
-                    if (ty == 0) {
-                        tp += 0.5;
-                    } else {
-                        tp -= 0.5;
-                    }
-                }
-                /*tp = 15 + Math.floor(Math.random() * 10)*0.5;*/
+            $("#btn1").on('click', function() {
+                tp += 0.5;
                 var stp = String(tp);
                 divtp.text(stp);
-                setTimeout(randomtp, 30000);
+            });
+            $("#btn2").on('click', function() {
+                tp -= 0.5;
+                var stp = String(tp);
+                divtp.text(stp);
+            });
+            function randomtp() {
+                var ch = $("#chk").prop('checked');
+                if (ch) {
+                    if (tp == 17) {
+                        tp = 16.5;
+                    } else if (tp == 13) {
+                        tp = 13.5;
+                    } else {
+                        var ty = Math.floor(Math.random() * 2);
+                        if (ty == 0) {
+                            tp += 0.5;
+                        } else {
+                            tp -= 0.5;
+                        }
+                    }
+                    /*tp = 15 + Math.floor(Math.random() * 10)*0.5;*/
+                }
+                var stp = String(tp);
+                divtp.text(stp);
+                setTimeout(randomtp, 20000);
             }
             randomtp();
         });
@@ -92,4 +105,7 @@
         <p class="temperature">20</p>
         <div class="cname">℃</div>
     </div>
+    <input type="checkbox" id="chk" /><label for="chk">乱数</label>
+    <input type="button" id="btn1" value="+">
+    <input type="button" id="btn2" value="-">
 </body>
