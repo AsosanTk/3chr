@@ -219,6 +219,11 @@
         height: 20px;
         background-color: transparent;
     }
+    .space20 {
+        width: 100%;
+        height: 10px;
+        background-color: transparent;
+    }
 
     .listsection, .phaselistsection {
         width: 100%;
