@@ -2,10 +2,10 @@
 
 $(window).on("load", function() {
     stopload();
-    setTimeout(stopload(), 10000);
     function stopload() {
         $(".loading").fadeOut(500);
         $(".loading-tag").fadeOut(500);
+        setTimeout(stopload(), 10000);
     }
 
     /*$('.contents-menu').css('transform', 'translateY(0)');*/
