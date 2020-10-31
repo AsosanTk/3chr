@@ -13,7 +13,7 @@ $(window).on("load", function() {
     
     var countvisitor = localStorage.getItem('visitor');
     if (countvisitor != null) {
-        $("#visitors-day2").text("今日の来場者： " + countvisitor + "人");
+        $("#visitors-day3").text("今日の来場者： " + countvisitor + "人");
     }
     
 });
