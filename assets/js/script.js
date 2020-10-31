@@ -117,7 +117,7 @@ jQuery(function ($) {
     var windowScrollTop = 0;
     $(window).scroll(function () {
 
-        fadeInUp();
+        /*fadeInUp();*/
 
         windowScrollTop = $(this).scrollTop();
         if (windowScrollTop >= 120) {

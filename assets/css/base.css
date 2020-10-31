@@ -574,11 +574,11 @@ body {
 
 
     /*fadeInUp()*/
-    .fadeInUp {
+    /*.fadeInUp {
         opacity: 0;
         transform: translateY(30px);
         transition: 1s;
-    }
+    }*/
 
 
 
