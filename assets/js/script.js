@@ -21,7 +21,7 @@ $(window).on("load", function() {
 
 jQuery(function ($) {
 
-    function fadeInUp() {
+    /*function fadeInUp() {
         $('.fadeInUp').each(function() {
             var target = $(this).offset().top;
             var scroll = $(window).scrollTop();
@@ -32,7 +32,7 @@ jQuery(function ($) {
             }
         });
     }
-    fadeInUp();
+    fadeInUp();*/
     
     
     /*counttime*/
