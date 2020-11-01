@@ -2,10 +2,11 @@
 
 $(window).on("load", function() {
     stopload();
+    
     function stopload() {
         $(".loading").fadeOut(500);
         $(".loading-tag").fadeOut(500);
-        setTimeout(stopload(), 10000);
+        /*setTimeout(stopload, 10000);*/
     }
 
     /*$('.contents-menu').css('transform', 'translateY(0)');*/
@@ -37,9 +38,9 @@ jQuery(function ($) {
     
     /*counttime*/
     function CountDays() {
-        var starttime = new Date("October 30, 2020 09:30:00");
+        var starttime = new Date("October 30, 2021 09:30:00");
         var nowtime = new Date();
-        var counttime = nowtime.getTime() - starttime.getTime();
+        var counttime = starttime.getTime() - nowtime.getTime();
         var d = Math.floor(counttime/86400000);
         counttime -= d*86400000;
         var h = Math.floor(counttime/3600000);
@@ -47,7 +48,7 @@ jQuery(function ($) {
         var m = Math.floor(counttime/60000);
         counttime -= m*60000;
         var s = Math.floor(counttime/1000);
-        var dd = ('00' + d).slice(-2);
+        var dd = ('000' + d).slice(-3);
         var hh = ('00' + h).slice(-2);
         var mm = ('00' + m).slice(-2);
         var ss = ('00' + s).slice(-2);
