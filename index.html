@@ -65,13 +65,13 @@
     <!--WebApp-->
     <link rel="manifest" href="./assets/json/manifest.json">
     <script>
-        if ('serviceWorker' in navigator) {
+        /*if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./serviceworker.js').then(registration => {
                 console.log('ServiceWorker registration successful.');
             }).catch(err => {
                 console.log('ServiceWorker registration failed.');
             });
-        }
+        }*/
     </script>
 </head>
 
@@ -172,9 +172,15 @@ imgは基本16:9
             </div>
             <!--要望があれば点のやつを追加-->
         </div>
-
+        <section class="whitesection">
+            <h2 style="text-align: center;">体験部門<em class="emphasizew" style="color: darkred; font-weight: 600;">最優秀賞</em>獲得！</h2>
+            <h4>皆様の暖かい応援があり、3CHRは審査最優秀賞を獲得することができました。ご来場・ご覧いただき誠にありがとうございました。</h4>
+        </section>
+        <section class="blacksection">
+            <h3 class="cdn countdown" style="color: #bca16f;" id="visitors-day2">総来場者数：-計算中-</h3>
+        </section>
         <section class="whitesection fadeInUp comingsoon">
-            <h2 class="split">本日は文化祭3日目です。<br>最終日もまだまだやりますよ。<span class="bar"></span></h2>
+            <h3 class="split">今年度の文化祭は終了いたしました。<br>オンラインコンテンツは3月終わりまで公開されます。<span class="bar"></span></h3>
             <div class="countdown">
                 <span class="countdown-day cdn"></span>
                 <span class="countdown-text cdn">days</span>
@@ -185,23 +191,24 @@ imgは基本16:9
                 <span class="countdown-sec cdn"></span>
                 <span class="countdown-text cdn">secs</span>
             </div>
-            <span class="cdn countdown">Start!</span>
-            <div class="space10"></div>
-            <span class="cdn countdown" style="color: #bca16f;" id="visitors-day1">Day1の来場者数： 442人</span>
+            <span class="cdn countdown">更なる高みへ...</span>
+            <!--<span class="cdn countdown" style="color: #bca16f;" id="visitors-day1">Day1の来場者数： 442人</span>
             <div class="space10"></div>
             <span class="cdn countdown" style="color: #bca16f;" id="visitors-day2">Day2の来場者数： 約350人</span>
-            <!--
+            
             <div class="space10"></div>
             <span class="cdn countdown" style="color: #bca16f;" id="visitors-day3">Day3の来場者数：</span>-->
+            
+            
         </section>
 
-        <section class="blacksection fadeInUp">
+        <!--<section class="blacksection fadeInUp">
             <h3 class="centerline" style="color: darkorange;">！各種コンテンツ公開について！</h3>
             <h4>オンラインコンテンツは<a class="linktextw" href="contents/">Online Contents</a>ページにて公開しています。</h4>
         </section>
         <section class="whitesection fadeInUp">
             <h4>3CHRでは夏のおうち生活に必須である<em class="emphasizew">"エアコン"</em>をテーマとし、自作模型をはじめとする様々なコンテンツを公開していきます。</h4>
-        </section>
+        </section>-->
         <section class="blacksection fadeInUp">
             <h3 class="centerline">News</h3>
             <div class="space20"></div>
@@ -209,7 +216,7 @@ imgは基本16:9
             <ul class="listsection">
                <li>
                     <div class="newsitem">
-                        <p class="textline"><em class="emphasizew">New!</em> 2020/10/30 (v3.2)</p>
+                        <p class="textline"><em class="emphasizew">New!</em> 2020/10/31 (v3.2)</p>
                         <p class="headline">フィードバックより、サイトの軽量化を行いました。</p>
                     </div>
                 </li>
