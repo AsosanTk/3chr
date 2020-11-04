@@ -105,7 +105,7 @@ var urlsToCache = [
     "https://www.googletagmanager.com/gtag/js?id=UA-179540664-1",
     "https://fonts.googleapis.com/css?family=Lobster",
     "//code.jquery.com/jquery-3.4.1.min.js",
-    "//code.jquery.com/jquery-3.4.1.js",
+    "//code.jquery.com/jquery-3.4.1.js"
     /*"https://use.typekit.net/mby4ewi.js"*/
 ];
 
